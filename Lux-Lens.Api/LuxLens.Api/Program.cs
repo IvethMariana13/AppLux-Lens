@@ -12,7 +12,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
+builder.Services.AddTransient<ILensService, LensService>();
+builder.Services.AddTransient<IRepository<int, Lens>, Repository<int, Lens>>();
 //Conexion de Bd
 
 string connectionString = builder.Configuration.GetConnectionString("Default");
@@ -20,8 +21,7 @@ builder.Services.AddDbContext<LensDbContext>(options =>
                 options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 var app = builder.Build();
 
-builder.Services.AddTransient<ILensService, LensService>();
-builder.Services.AddTransient<IRepository<int, Lens>, Repository<int, Lens>>();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -29,7 +29,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
 
 app.UseHttpsRedirection();
 
