@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Lux_Lens.ApplicationServices</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lux-Lens.Core\Lux-Lens.Core.csproj" />
+    <ProjectReference Include="..\Lux-Lens.DataAccess\Lux-Lens.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lux-Lens.Api", "Lux-Lens.Api\Lux-Lens.Api.csproj", "{1FE366DE-C278-4DD3-9755-042465A7AF91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lux-Lens.Core", "Lux-Lens.Core\Lux-Lens.Core.csproj", "{8515F6EA-50D5-49DB-B998-90FF477EB8EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lux-Lens.DataAccess", "Lux-Lens.DataAccess\Lux-Lens.DataAccess.csproj", "{B73E74FF-E6A1-4135-A9B2-F6A535A5285D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lux-Lens.ApplicationServices", "Lux-Lens.ApplicationServices\Lux-Lens.ApplicationServices.csproj", "{3ECC2A1D-F0DF-4587-8F8A-79D5363C484A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FE366DE-C278-4DD3-9755-042465A7AF91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE366DE-C278-4DD3-9755-042465A7AF91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE366DE-C278-4DD3-9755-042465A7AF91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE366DE-C278-4DD3-9755-042465A7AF91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8515F6EA-50D5-49DB-B998-90FF477EB8EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8515F6EA-50D5-49DB-B998-90FF477EB8EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8515F6EA-50D5-49DB-B998-90FF477EB8EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8515F6EA-50D5-49DB-B998-90FF477EB8EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B73E74FF-E6A1-4135-A9B2-F6A535A5285D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B73E74FF-E6A1-4135-A9B2-F6A535A5285D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B73E74FF-E6A1-4135-A9B2-F6A535A5285D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B73E74FF-E6A1-4135-A9B2-F6A535A5285D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ECC2A1D-F0DF-4587-8F8A-79D5363C484A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ECC2A1D-F0DF-4587-8F8A-79D5363C484A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ECC2A1D-F0DF-4587-8F8A-79D5363C484A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ECC2A1D-F0DF-4587-8F8A-79D5363C484A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B09D1AE6-FA37-4505-A4D2-035DD25DAB27}
+	EndGlobalSection
+EndGlobal
