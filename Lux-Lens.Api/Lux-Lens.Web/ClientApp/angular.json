@@ -129,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "Lux_Lens.Web"
+  "defaultProject": "Lux_Lens.Web",
+  "cli": {
+    "analytics": false
+  }
 }
