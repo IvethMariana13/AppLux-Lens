@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lux-Lens.ApplicationService
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lux-Lens.Web", "Lux-Lens.Web\Lux-Lens.Web.csproj", "{C33AA207-111D-4AFA-87BC-86F9960CA146}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuxLens.Api", "LuxLens.Api\LuxLens.Api.csproj", "{C6CD83BD-E181-4492-8286-DFC9B81EA823}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LuxLens.Api", "LuxLens.Api\LuxLens.Api.csproj", "{C6CD83BD-E181-4492-8286-DFC9B81EA823}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lux-Lens.AppServices.Shared", "Lux-Lens.AppServices.Shared\Lux-Lens.AppServices.Shared.csproj", "{EB8ABEBC-347E-468B-A769-0F5273B6B369}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{C6CD83BD-E181-4492-8286-DFC9B81EA823}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6CD83BD-E181-4492-8286-DFC9B81EA823}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6CD83BD-E181-4492-8286-DFC9B81EA823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB8ABEBC-347E-468B-A769-0F5273B6B369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8ABEBC-347E-468B-A769-0F5273B6B369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8ABEBC-347E-468B-A769-0F5273B6B369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8ABEBC-347E-468B-A769-0F5273B6B369}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,7 @@
+using Lux_Lens.ApplicationServices.Lens;
+using Lux_Lens.Core.Entities;
 using Lux_Lens.DataAccess;
+using Lux_Lens.DataAccess.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,6 +19,9 @@ string connectionString = builder.Configuration.GetConnectionString("Default");
 builder.Services.AddDbContext<LensDbContext>(options =>
                 options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 var app = builder.Build();
+
+builder.Services.AddTransient<ILensService, LensService>();
+builder.Services.AddTransient<IRepository<int, Lens>, Repository<int, Lens>>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
