@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace Lux_Lens.DataAccess
 {
-    public class DbContext : IdentityDbContext
+    public class LensDbContext : IdentityDbContext
     {
         public virtual DbSet<Lens> Lens { get; set; }
-        public DbContext(DbContextOptions <DbContext> options) : base(options)
+        public LensDbContext(DbContextOptions <LensDbContext> options) : base(options)
         {
 
         }

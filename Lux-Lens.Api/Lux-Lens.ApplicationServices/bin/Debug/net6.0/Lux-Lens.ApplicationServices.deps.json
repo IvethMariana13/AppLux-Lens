@@ -911,6 +911,7 @@
         "dependencies": {
           "Lux-Lens.Core": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.21",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.21",
           "Pomelo.EntityFrameworkCore.MySql": "6.0.1"
         },
         "runtime": {

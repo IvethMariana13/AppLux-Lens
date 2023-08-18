@@ -10,3 +10,15 @@ C:\Users\maria\OneDrive\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core
 C:\Users\maria\OneDrive\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\refint\Lux-Lens.Core.dll
 C:\Users\maria\OneDrive\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.pdb
 C:\Users\maria\OneDrive\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\ref\Lux-Lens.Core.dll
+C:\Users\pc\Desktop\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\bin\Debug\net6.0\Lux-Lens.Core.deps.json
+C:\Users\pc\Desktop\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\bin\Debug\net6.0\Lux-Lens.Core.dll
+C:\Users\pc\Desktop\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\bin\Debug\net6.0\Lux-Lens.Core.pdb
+C:\Users\pc\Desktop\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Desktop\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.AssemblyInfo.cs
+C:\Users\pc\Desktop\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.dll
+C:\Users\pc\Desktop\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\refint\Lux-Lens.Core.dll
+C:\Users\pc\Desktop\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.pdb
+C:\Users\pc\Desktop\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\ref\Lux-Lens.Core.dll
