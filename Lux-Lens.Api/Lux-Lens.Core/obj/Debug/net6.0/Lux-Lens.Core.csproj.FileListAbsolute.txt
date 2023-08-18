@@ -1,0 +1,12 @@
+D:\Git\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\bin\Debug\net6.0\Lux-Lens.Core.deps.json
+D:\Git\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\bin\Debug\net6.0\Lux-Lens.Core.dll
+D:\Git\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\bin\Debug\net6.0\Lux-Lens.Core.pdb
+D:\Git\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.csproj.AssemblyReference.cache
+D:\Git\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.AssemblyInfoInputs.cache
+D:\Git\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.AssemblyInfo.cs
+D:\Git\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.csproj.CoreCompileInputs.cache
+D:\Git\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.dll
+D:\Git\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\refint\Lux-Lens.Core.dll
+D:\Git\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.pdb
+D:\Git\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\ref\Lux-Lens.Core.dll

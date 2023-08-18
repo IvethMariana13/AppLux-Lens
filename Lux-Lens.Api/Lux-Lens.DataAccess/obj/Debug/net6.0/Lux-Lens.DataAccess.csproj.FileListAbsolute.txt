@@ -1,0 +1,17 @@
+D:\Git\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\bin\Debug\net6.0\Lux-Lens.DataAccess.deps.json
+D:\Git\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\bin\Debug\net6.0\Lux-Lens.DataAccess.runtimeconfig.json
+D:\Git\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\bin\Debug\net6.0\Lux-Lens.DataAccess.dll
+D:\Git\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\bin\Debug\net6.0\Lux-Lens.DataAccess.pdb
+D:\Git\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\bin\Debug\net6.0\Lux-Lens.Core.dll
+D:\Git\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\bin\Debug\net6.0\Lux-Lens.Core.pdb
+D:\Git\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\obj\Debug\net6.0\Lux-Lens.DataAccess.csproj.AssemblyReference.cache
+D:\Git\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\obj\Debug\net6.0\Lux-Lens.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\obj\Debug\net6.0\Lux-Lens.DataAccess.AssemblyInfoInputs.cache
+D:\Git\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\obj\Debug\net6.0\Lux-Lens.DataAccess.AssemblyInfo.cs
+D:\Git\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\obj\Debug\net6.0\Lux-Lens.DataAccess.csproj.CoreCompileInputs.cache
+D:\Git\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\obj\Debug\net6.0\Lux-Lens.DataAccess.csproj.CopyComplete
+D:\Git\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\obj\Debug\net6.0\Lux-Lens.DataAccess.dll
+D:\Git\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\obj\Debug\net6.0\refint\Lux-Lens.DataAccess.dll
+D:\Git\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\obj\Debug\net6.0\Lux-Lens.DataAccess.pdb
+D:\Git\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\obj\Debug\net6.0\Lux-Lens.DataAccess.genruntimeconfig.cache
+D:\Git\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\obj\Debug\net6.0\ref\Lux-Lens.DataAccess.dll

@@ -4212,19 +4212,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\josep\\.nuget\\packages\\": {}
+    "C:\\Users\\crist\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Api\\Lux-Lens.Api.csproj",
+      "projectUniqueName": "D:\\Git\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Api\\Lux-Lens.Api.csproj",
       "projectName": "Lux-Lens.Api",
-      "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Api\\Lux-Lens.Api.csproj",
-      "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-      "outputPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Api\\obj\\",
+      "projectPath": "D:\\Git\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Api\\Lux-Lens.Api.csproj",
+      "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+      "outputPath": "D:\\Git\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\josep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4238,8 +4238,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj": {
-              "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj"
+            "D:\\Git\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj": {
+              "projectPath": "D:\\Git\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj"
             }
           }
         }
@@ -4331,7 +4331,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
