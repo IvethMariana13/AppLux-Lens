@@ -42,16 +42,9 @@ namespace LuxLens.Api.Controllers.LensControllers
         public async Task<IActionResult> Create(Lens lens)
         {
 
-            var response = await _lensService.AddLensAsync(lens);
+            await _lensService.AddLensAsync(lens);
 
-            if (response != null)
-            {
-                return Ok(new { Message = "¡Lente creado exitosamente!", Lens = response });
-            }
-            else
-            {
-                return BadRequest(new { Message = "Hubo un problema al crear el lente." });
-            }
+            return Ok();
         }
 
         [HttpPut("Edit/{id}")]
@@ -59,11 +52,18 @@ namespace LuxLens.Api.Controllers.LensControllers
         {
             if (id != lens.Id)
             {
-                return BadRequest();
+                return BadRequest("IDs do not match");
             }
 
-            await _lensService.EditLensAsync(lens);
-            return NoContent();
+            try
+            {
+                await _lensService.EditLensAsync(lens);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
         }
 
         [HttpDelete("Delete/{id}")]
