@@ -5,6 +5,7 @@
 <table class='table table-striped' aria-labelledby="tableLabel" *ngIf="forecasts">
   <thead>
     <tr>
+      <th>Id</th>
       <th>Modelo</th>
       <th>Marca</th>
       <th>Color</th>
@@ -15,12 +16,13 @@
   </thead>
   <tbody>
     <tr *ngFor="let forecast of forecasts">
-      <td>{{ forecast.date }}</td>
-      <td>{{ forecast.temperatureC }}</td>
-      <td>{{ forecast.temperatureF }}</td>
-      <td>{{ forecast.summary }}</td>
-      <td>{{ forecast.temperatureF }}</td>
-      <td>{{ forecast.summary }}</td>
+      <td>{{ forecast.id }}</td>
+      <td>{{ forecast.modelo }}</td>
+      <td>{{ forecast.marca }}</td>
+      <td>{{ forecast.color }}</td>
+      <td>{{ forecast.material }}</td>
+      <td>{{ forecast.precio }}</td>
+      <td>{{ forecast.cantidad }}</td>
     </tr>
   </tbody>
 </table>

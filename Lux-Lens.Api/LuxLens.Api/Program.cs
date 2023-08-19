@@ -19,9 +19,22 @@ builder.Services.AddTransient<IRepository<int, Lens>, Repository<int, Lens>>();
 string connectionString = builder.Configuration.GetConnectionString("Default");
 builder.Services.AddDbContext<LensDbContext>(options =>
                 options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+
+//CORS
+builder.Services.AddCors(options =>
+    {
+        options.AddPolicy("AllowWebApp", builder =>
+       {
+            builder.AllowAnyOrigin()
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+        });
+    });
+
 var app = builder.Build();
 
 
+app.UseCors("AllowWebApp");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

@@ -9,19 +9,22 @@ import { HttpClient } from '@angular/common/http';
 
 
 export class TableLensComponent {
-  public forecasts: WeatherForecast[] = [];
+  public forecasts: LensForecast[] = [];
 
-  constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string) {
-    http.get<WeatherForecast[]>(baseUrl + 'weatherforecast').subscribe(result => {
+  constructor(http: HttpClient) {
+    http.get<LensForecast[]>('https://localhost:44326/api/Lens/GetAll').subscribe(result => {
       this.forecasts = result;
     }, error => console.error(error));
   }
 }
 
 
-interface WeatherForecast {
-  date: string;
-  temperatureC: number;
-  temperatureF: number;
-  summary: string;
+interface LensForecast {
+  id: number;
+  modelo: string;
+  marca: string;
+  color: string;
+  material: string;
+  precio: number;
+  cantidad: number;
 }

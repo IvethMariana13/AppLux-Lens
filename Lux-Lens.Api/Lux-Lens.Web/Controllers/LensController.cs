@@ -6,8 +6,9 @@ using System.Text.Json;
 
 namespace Lux_Lens.Web.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("[controller]")]
+    
     public class LensController : ControllerBase
     {
         private readonly IHttpClientFactory _httpClientFactory;
@@ -38,10 +39,9 @@ namespace Lux_Lens.Web.Controllers
             }
             else
             {
+                Console.WriteLine("No entró a la api");
                 return StatusCode((int)response.StatusCode, response.ReasonPhrase);
             }
-
-            return null;
         }
     }
 }
