@@ -3,6 +3,7 @@ using Lux_Lens.Core.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace LuxLens.Api.Controllers.LensControllers
 {
@@ -16,27 +17,63 @@ namespace LuxLens.Api.Controllers.LensControllers
         {
             _lensService = llensService;
         }
-        
+
+        [HttpGet("GetById/{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            var lens = await _lensService.GetLensByIdAsync(id);
+
+            if (lens == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(lens);
+        }
+
+        [HttpGet("GetAll")]
+        public async Task<IActionResult> GetAllLenses()
+        {
+            var lenses = await _lensService.GetLensAsync();
+            return Ok(lenses);
+        }
+
         [HttpPost("Create")]
-        public async Task<Int32> Create(Lens dto)
+        public async Task<IActionResult> Create(Lens lens)
         {
-            
-             var response = await _lensService.AddLensAsync(dto);
-             
-            return response;
+
+            await _lensService.AddLensAsync(lens);
+
+            return Ok();
         }
 
-        [HttpPost("Delete")]
-        public async Task delete(int id)
+        [HttpPut("Edit/{id}")]
+        public async Task<IActionResult> EditLens(int id, Lens lens)
         {
-             await _lensService.DeleteLensAsync(id);
+            if (id != lens.Id)
+            {
+                return BadRequest("IDs do not match");
+            }
+
+            try
+            {
+                await _lensService.EditLensAsync(lens);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
         }
 
-        [HttpPost("GetAll")]
-        public async Task Getall()
+        [HttpDelete("Delete/{id}")]
+        public async Task<IActionResult> DeleteLens(int id)
         {
-            await _lensService.GetLensAsync();
+            await _lensService.DeleteLensAsync(id);
+            return Ok();
         }
+
+        
 
     }
 }
