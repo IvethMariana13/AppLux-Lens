@@ -2,6 +2,10 @@
   <input type="text" class="form-control" id="datatable-search-input" />
   <label class="form-label" for="datatable-search-input">Search</label>
 </div>
+<div class="form-outline mb-2">
+  <button type="button" class="btn btn-info">Agregar</button>
+</div>
+
 <table class='table table-striped' aria-labelledby="tableLabel" *ngIf="forecasts">
   <thead>
     <tr>
@@ -12,6 +16,8 @@
       <th>Material</th>
       <th>Precio</th>
       <th>Cantidad</th>
+      <th></th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
@@ -23,6 +29,8 @@
       <td>{{ forecast.material }}</td>
       <td>{{ forecast.precio }}</td>
       <td>{{ forecast.cantidad }}</td>
+      <td><button type="button" class="btn btn-warning" value="{{ forecast.id }}">Editar</button></td>
+      <td><button type="button" class="btn btn-danger" value="{{ forecast.id }}">Eliminar</button></td>
     </tr>
   </tbody>
 </table>
