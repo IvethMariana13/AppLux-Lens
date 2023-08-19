@@ -3855,16 +3855,11 @@
     ]
   },
   "packageFolders": {
-<<<<<<< Updated upstream
     "C:\\Users\\josep\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\crist\\.nuget\\packages\\": {}
->>>>>>> Stashed changes
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< Updated upstream
       "projectUniqueName": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\Lux-Lens.AppServices.Shared.csproj",
       "projectName": "Lux-Lens.AppServices.Shared",
       "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\Lux-Lens.AppServices.Shared.csproj",
@@ -3873,16 +3868,6 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\josep\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-      "projectUniqueName": "C:\\Users\\crist\\Documents\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\Lux-Lens.AppServices.Shared.csproj",
-      "projectName": "Lux-Lens.AppServices.Shared",
-      "projectPath": "C:\\Users\\crist\\Documents\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\Lux-Lens.AppServices.Shared.csproj",
-      "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\crist\\Documents\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> Stashed changes
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3896,13 +3881,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-<<<<<<< Updated upstream
             "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj": {
               "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj"
-=======
-            "C:\\Users\\crist\\Documents\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj": {
-              "projectPath": "C:\\Users\\crist\\Documents\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj"
->>>>>>> Stashed changes
             }
           }
         }
@@ -3938,12 +3918,16 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< Updated upstream
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
->>>>>>> Stashed changes
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
