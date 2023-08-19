@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< Updated upstream
     "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj": {}
   },
   "projects": {
@@ -15,6 +16,22 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\josep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "C:\\Users\\crist\\Documents\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\crist\\Documents\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\crist\\Documents\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj",
+        "projectName": "Lux-Lens.Core",
+        "projectPath": "C:\\Users\\crist\\Documents\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj",
+        "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\crist\\Documents\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> Stashed changes
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -65,6 +82,7 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< Updated upstream
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
@@ -80,6 +98,23 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\josep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\crist\\Documents\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\crist\\Documents\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj",
+        "projectName": "Lux-Lens.DataAccess",
+        "projectPath": "C:\\Users\\crist\\Documents\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\crist\\Documents\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> Stashed changes
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,8 +128,13 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+<<<<<<< Updated upstream
               "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj": {
                 "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj"
+=======
+              "C:\\Users\\crist\\Documents\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj": {
+                "projectPath": "C:\\Users\\crist\\Documents\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -150,7 +190,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< Updated upstream
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+>>>>>>> Stashed changes
         }
       }
     }

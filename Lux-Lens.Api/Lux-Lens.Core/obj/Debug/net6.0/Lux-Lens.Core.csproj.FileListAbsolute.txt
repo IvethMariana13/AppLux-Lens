@@ -34,3 +34,15 @@ D:\PuntoSingular\Luxottica\LuxlensProject\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core
 D:\PuntoSingular\Luxottica\LuxlensProject\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\refint\Lux-Lens.Core.dll
 D:\PuntoSingular\Luxottica\LuxlensProject\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.pdb
 D:\PuntoSingular\Luxottica\LuxlensProject\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\ref\Lux-Lens.Core.dll
+C:\Users\crist\Documents\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\bin\Debug\net6.0\Lux-Lens.Core.deps.json
+C:\Users\crist\Documents\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\bin\Debug\net6.0\Lux-Lens.Core.dll
+C:\Users\crist\Documents\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\bin\Debug\net6.0\Lux-Lens.Core.pdb
+C:\Users\crist\Documents\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.csproj.AssemblyReference.cache
+C:\Users\crist\Documents\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\crist\Documents\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.AssemblyInfoInputs.cache
+C:\Users\crist\Documents\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.AssemblyInfo.cs
+C:\Users\crist\Documents\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.csproj.CoreCompileInputs.cache
+C:\Users\crist\Documents\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.dll
+C:\Users\crist\Documents\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\refint\Lux-Lens.Core.dll
+C:\Users\crist\Documents\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.pdb
+C:\Users\crist\Documents\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\ref\Lux-Lens.Core.dll
