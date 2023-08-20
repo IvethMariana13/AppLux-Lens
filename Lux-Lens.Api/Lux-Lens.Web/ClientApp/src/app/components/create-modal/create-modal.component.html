@@ -1,0 +1,30 @@
+<div class="container mt-5">
+  <h2>Insertar Datos de Lentes</h2>
+  <form>
+    <div class="form-group">
+      <label for="modelo">Modelo:</label>
+      <input type="text" class="form-control" id="modelo" name="modelo" [(ngModel)]="forecast.modelo" required>
+    </div>
+    <div class="form-group">
+      <label for="marca">Marca:</label>
+      <input type="text" class="form-control" id="marca" name="marca" [(ngModel)]="forecast.marca" required>
+    </div>
+    <div class="form-group">
+      <label for="color">Color:</label>
+      <input type="text" class="form-control" id="color" name="color" [(ngModel)]="forecast.color" required>
+    </div>
+    <div class="form-group">
+      <label for="material">Material:</label>
+      <input type="text" class="form-control" id="material" name="material" [(ngModel)]="forecast.material" required>
+    </div>
+    <div class="form-group">
+      <label for="precio">Precio:</label>
+      <input type="number" class="form-control" id="precio" name="precio" step="0.01" [(ngModel)]="forecast.precio" required>
+    </div>
+    <div class="form-group">
+      <label for="cantidad">Cantidad:</label>
+      <input type="number" class="form-control" id="cantidad" name="cantidad" [(ngModel)]="forecast.cantidad" required>
+    </div>
+    <button type="submit" class="btn btn-primary" (click) ="guardarDatos()">Insertar</button>
+  </form>
+</div>

@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lux-Lens.Api", "Lux-Lens.Api\Lux-Lens.Api.csproj", "{1FE366DE-C278-4DD3-9755-042465A7AF91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lux-Lens.Core", "Lux-Lens.Core\Lux-Lens.Core.csproj", "{8515F6EA-50D5-49DB-B998-90FF477EB8EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lux-Lens.Core", "Lux-Lens.Core\Lux-Lens.Core.csproj", "{8515F6EA-50D5-49DB-B998-90FF477EB8EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lux-Lens.DataAccess", "Lux-Lens.DataAccess\Lux-Lens.DataAccess.csproj", "{B73E74FF-E6A1-4135-A9B2-F6A535A5285D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lux-Lens.DataAccess", "Lux-Lens.DataAccess\Lux-Lens.DataAccess.csproj", "{B73E74FF-E6A1-4135-A9B2-F6A535A5285D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lux-Lens.ApplicationServices", "Lux-Lens.ApplicationServices\Lux-Lens.ApplicationServices.csproj", "{3ECC2A1D-F0DF-4587-8F8A-79D5363C484A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lux-Lens.ApplicationServices", "Lux-Lens.ApplicationServices\Lux-Lens.ApplicationServices.csproj", "{3ECC2A1D-F0DF-4587-8F8A-79D5363C484A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lux-Lens.Web", "Lux-Lens.Web\Lux-Lens.Web.csproj", "{C33AA207-111D-4AFA-87BC-86F9960CA146}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LuxLens.Api", "LuxLens.Api\LuxLens.Api.csproj", "{C6CD83BD-E181-4492-8286-DFC9B81EA823}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lux-Lens.AppServices.Shared", "Lux-Lens.AppServices.Shared\Lux-Lens.AppServices.Shared.csproj", "{EB8ABEBC-347E-468B-A769-0F5273B6B369}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1FE366DE-C278-4DD3-9755-042465A7AF91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1FE366DE-C278-4DD3-9755-042465A7AF91}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1FE366DE-C278-4DD3-9755-042465A7AF91}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1FE366DE-C278-4DD3-9755-042465A7AF91}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8515F6EA-50D5-49DB-B998-90FF477EB8EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8515F6EA-50D5-49DB-B998-90FF477EB8EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8515F6EA-50D5-49DB-B998-90FF477EB8EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +33,18 @@ Global
 		{3ECC2A1D-F0DF-4587-8F8A-79D5363C484A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3ECC2A1D-F0DF-4587-8F8A-79D5363C484A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3ECC2A1D-F0DF-4587-8F8A-79D5363C484A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C33AA207-111D-4AFA-87BC-86F9960CA146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C33AA207-111D-4AFA-87BC-86F9960CA146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C33AA207-111D-4AFA-87BC-86F9960CA146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C33AA207-111D-4AFA-87BC-86F9960CA146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6CD83BD-E181-4492-8286-DFC9B81EA823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6CD83BD-E181-4492-8286-DFC9B81EA823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6CD83BD-E181-4492-8286-DFC9B81EA823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6CD83BD-E181-4492-8286-DFC9B81EA823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB8ABEBC-347E-468B-A769-0F5273B6B369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8ABEBC-347E-468B-A769-0F5273B6B369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8ABEBC-347E-468B-A769-0F5273B6B369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8ABEBC-347E-468B-A769-0F5273B6B369}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

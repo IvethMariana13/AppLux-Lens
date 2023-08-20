@@ -1,0 +1,36 @@
+<div class="form-outline mb-4">
+  <input type="text" class="form-control" id="datatable-search-input" [(ngModel)]="searchInput"/>
+  <label class="form-label" for="datatable-search-input" >Search</label>
+</div>
+<div class="form-outline mb-2">
+  <button type="button" class="btn btn-info" (click) = "abrirModalAgregar()">Agregar</button>
+</div>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="forecasts">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Modelo</th>
+      <th>Marca</th>
+      <th>Color</th>
+      <th>Material</th>
+      <th>Precio</th>
+      <th>Cantidad</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let forecast of forecasts | filter: searchInput">
+      <td>{{ forecast.id }}</td>
+      <td>{{ forecast.modelo }}</td>
+      <td>{{ forecast.marca }}</td>
+      <td>{{ forecast.color }}</td>
+      <td>{{ forecast.material }}</td>
+      <td>{{ forecast.precio }}</td>
+      <td>{{ forecast.cantidad }}</td>
+      <td><button type="button" class="btn btn-warning" (click) = "abrirModalEditar(forecast.id)">Editar</button></td>
+      <td><button type="button" class="btn btn-danger" (click) ="borrarRegistro(forecast.id)" >Eliminar</button></td>
+    </tr>
+  </tbody>
+</table>
