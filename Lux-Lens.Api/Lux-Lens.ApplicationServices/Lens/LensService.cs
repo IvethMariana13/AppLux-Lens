@@ -1,49 +1,64 @@
-﻿using AutoMapper.Execution;
+﻿using AutoMapper;
+using AutoMapper.Execution;
+using Lux_Lens.AppServices.Shared.Dto;
 using Lux_Lens.DataAccess.Repositories;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics.Metrics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Lux_Lens.ApplicationServices.Lens
 {
     public class LensService : ILensService
     {
         private readonly IRepository<int, Core.Entities.Lens> _repository;
+        private readonly IMapper _mapper; 
 
-        public LensService(IRepository<int, Core.Entities.Lens> repository)
+        public LensService(IRepository<int, Core.Entities.Lens> repository, IMapper mapper)
         {
             _repository = repository;
+            _mapper = mapper;
         }
 
 
-        public async Task<int> AddLensAsync(Core.Entities.Lens lens)
+        public async Task<int> AddLensAsync(LensDto lens)
         {
-            await _repository.AddAsync(lens);
-            return lens.Id;
+            var m = _mapper.Map<Core.Entities.Lens>(lens);
+            await _repository.AddAsync(m);
+            return 1;
         }
+       
 
         public async Task DeleteLensAsync(int lensId)
         {
             await _repository.DeleteAsync(lensId);
         }
 
-        public async Task EditLensAsync(Core.Entities.Lens lens)
+        public async Task EditLensAsync(LensDto lens, int id)
         {
-            await _repository.UpdateAsync(lens);
+            Core.Entities.Lens len = new Core.Entities.Lens
+            {
+                Id = id,
+                Modelo = lens.Modelo,
+                Marca = lens.Marca,
+                Cantidad = lens.Cantidad,
+                Color = lens.Color,
+                Material = lens.Material,
+                Precio = lens.Precio,
+            };
+            await _repository.UpdateAsync(len);
         }
 
         public async Task<List<Core.Entities.Lens>> GetLensAsync()
         {
-            return await _repository.GetAll().ToListAsync();
+            var m = await _repository.GetAll().ToListAsync();
+            List<Core.Entities.Lens> lens = _mapper.Map<List<Core.Entities.Lens>>(m);
+            return lens;
         }
 
         public async Task<Core.Entities.Lens> GetLensByIdAsync(int lensId)
         {
-            return await _repository.GetAsync(lensId);
+            var m = await _repository.GetAsync(lensId);
+            Core.Entities.Lens lens = _mapper.Map<Core.Entities.Lens>(m);
+            return lens;
         }
     }
 }

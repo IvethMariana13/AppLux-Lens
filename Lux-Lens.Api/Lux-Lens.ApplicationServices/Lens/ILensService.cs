@@ -1,4 +1,5 @@
 ﻿using AutoMapper.Execution;
+using Lux_Lens.AppServices.Shared.Dto;
 
 namespace Lux_Lens.ApplicationServices.Lens
 {
@@ -6,12 +7,12 @@ namespace Lux_Lens.ApplicationServices.Lens
     {
         Task<List<Core.Entities.Lens>> GetLensAsync();
 
-        Task<int> AddLensAsync(Core.Entities.Lens lens);
+        Task<int> AddLensAsync(LensDto lens);
 
         Task DeleteLensAsync(int lensId);
 
         Task<Core.Entities.Lens> GetLensByIdAsync(int lensId);
 
-        Task EditLensAsync(Core.Entities.Lens lens);
+        Task EditLensAsync(LensDto lens, int id);
     }
 }

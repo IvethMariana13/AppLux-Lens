@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Lux-Lens.AppServices.Shared\Lux-Lens.AppServices.Shared.csproj" />
     <ProjectReference Include="..\Lux-Lens.Core\Lux-Lens.Core.csproj" />
     <ProjectReference Include="..\Lux-Lens.DataAccess\Lux-Lens.DataAccess.csproj" />
   </ItemGroup>

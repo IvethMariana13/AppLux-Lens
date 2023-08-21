@@ -14,6 +14,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddTransient<ILensService, LensService>();
 builder.Services.AddTransient<IRepository<int, Lens>, Repository<int, Lens>>();
+builder.Services.AddAutoMapper(typeof(Lux_Lens.ApplicationServices.MapperProfile));
 //Conexion de Bd
 
 string connectionString = builder.Configuration.GetConnectionString("Default");

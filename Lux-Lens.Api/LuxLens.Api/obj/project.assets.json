@@ -1995,6 +1995,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AutoMapper": "11.0.0",
+          "Lux-Lens.AppServices.Shared": "1.0.0",
           "Lux-Lens.Core": "1.0.0",
           "Lux-Lens.DataAccess": "1.0.0"
         },
@@ -2003,6 +2004,20 @@
         },
         "runtime": {
           "bin/placeholder/Lux-Lens.ApplicationServices.dll": {}
+        }
+      },
+      "Lux-Lens.AppServices.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Lux-Lens.Core": "1.0.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/Lux-Lens.AppServices.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lux-Lens.AppServices.Shared.dll": {}
         }
       },
       "Lux-Lens.Core/1.0.0": {
@@ -4742,6 +4757,11 @@
       "path": "../Lux-Lens.ApplicationServices/Lux-Lens.ApplicationServices.csproj",
       "msbuildProject": "../Lux-Lens.ApplicationServices/Lux-Lens.ApplicationServices.csproj"
     },
+    "Lux-Lens.AppServices.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Lux-Lens.AppServices.Shared/Lux-Lens.AppServices.Shared.csproj",
+      "msbuildProject": "../Lux-Lens.AppServices.Shared/Lux-Lens.AppServices.Shared.csproj"
+    },
     "Lux-Lens.Core/1.0.0": {
       "type": "project",
       "path": "../Lux-Lens.Core/Lux-Lens.Core.csproj",
@@ -4773,19 +4793,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\josep\\.nuget\\packages\\": {}
+    "C:\\Users\\pc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\LuxLens.Api\\LuxLens.Api.csproj",
+      "projectUniqueName": "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\LuxLens.Api\\LuxLens.Api.csproj",
       "projectName": "LuxLens.Api",
-      "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\LuxLens.Api\\LuxLens.Api.csproj",
-      "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-      "outputPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\LuxLens.Api\\obj\\",
+      "projectPath": "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\LuxLens.Api\\LuxLens.Api.csproj",
+      "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+      "outputPath": "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\LuxLens.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\josep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4793,14 +4813,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj": {
-              "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj"
+            "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj": {
+              "projectPath": "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj"
             }
           }
         }
@@ -4895,7 +4916,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

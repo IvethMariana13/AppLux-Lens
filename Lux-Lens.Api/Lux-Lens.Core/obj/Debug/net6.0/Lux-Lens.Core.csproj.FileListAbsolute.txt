@@ -34,3 +34,15 @@ D:\PuntoSingular\Luxottica\LuxlensProject\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core
 D:\PuntoSingular\Luxottica\LuxlensProject\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\refint\Lux-Lens.Core.dll
 D:\PuntoSingular\Luxottica\LuxlensProject\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.pdb
 D:\PuntoSingular\Luxottica\LuxlensProject\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\ref\Lux-Lens.Core.dll
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\bin\Debug\net6.0\Lux-Lens.Core.deps.json
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\bin\Debug\net6.0\Lux-Lens.Core.dll
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\bin\Debug\net6.0\Lux-Lens.Core.pdb
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.csproj.AssemblyReference.cache
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.AssemblyInfoInputs.cache
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.AssemblyInfo.cs
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.csproj.CoreCompileInputs.cache
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.dll
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\refint\Lux-Lens.Core.dll
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\Lux-Lens.Core.pdb
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\obj\Debug\net6.0\ref\Lux-Lens.Core.dll
