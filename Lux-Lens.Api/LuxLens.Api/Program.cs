@@ -35,6 +35,15 @@ builder.Services.AddCors(options =>
 var app = builder.Build();
 
 
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+
+    var context = services.GetRequiredService<LensDbContext>();
+    context.Database.Migrate();
+}
+
+
 app.UseCors("AllowWebApp");
 
 // Configure the HTTP request pipeline.

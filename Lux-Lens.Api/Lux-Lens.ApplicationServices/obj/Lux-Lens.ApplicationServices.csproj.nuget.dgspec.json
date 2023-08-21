@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj": {}
+    "C:\\Users\\REPCOM\\Documents\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj": {}
   },
   "projects": {
-    "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj": {
+    "C:\\Users\\REPCOM\\Documents\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj",
+        "projectUniqueName": "C:\\Users\\REPCOM\\Documents\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj",
         "projectName": "Lux-Lens.ApplicationServices",
-        "projectPath": "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj",
-        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\obj\\",
+        "projectPath": "C:\\Users\\REPCOM\\Documents\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj",
+        "packagesPath": "C:\\Users\\REPCOM\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\REPCOM\\Documents\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\REPCOM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,14 +32,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\Lux-Lens.AppServices.Shared.csproj": {
-                "projectPath": "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\Lux-Lens.AppServices.Shared.csproj"
+              "C:\\Users\\REPCOM\\Documents\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\Lux-Lens.AppServices.Shared.csproj": {
+                "projectPath": "C:\\Users\\REPCOM\\Documents\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\Lux-Lens.AppServices.Shared.csproj"
               },
-              "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj": {
-                "projectPath": "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj"
+              "C:\\Users\\REPCOM\\Documents\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj": {
+                "projectPath": "C:\\Users\\REPCOM\\Documents\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj"
               },
-              "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj": {
-                "projectPath": "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj"
+              "C:\\Users\\REPCOM\\Documents\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\REPCOM\\Documents\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj"
               }
             }
           }
@@ -61,8 +65,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -71,21 +74,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\Lux-Lens.AppServices.Shared.csproj": {
+    "C:\\Users\\REPCOM\\Documents\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\Lux-Lens.AppServices.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\Lux-Lens.AppServices.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\REPCOM\\Documents\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\Lux-Lens.AppServices.Shared.csproj",
         "projectName": "Lux-Lens.AppServices.Shared",
-        "projectPath": "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\Lux-Lens.AppServices.Shared.csproj",
-        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\obj\\",
+        "projectPath": "C:\\Users\\REPCOM\\Documents\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\Lux-Lens.AppServices.Shared.csproj",
+        "packagesPath": "C:\\Users\\REPCOM\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\REPCOM\\Documents\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\REPCOM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -99,8 +106,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj": {
-                "projectPath": "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj"
+              "C:\\Users\\REPCOM\\Documents\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj": {
+                "projectPath": "C:\\Users\\REPCOM\\Documents\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj"
               }
             }
           }
@@ -126,8 +133,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -136,21 +142,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj": {
+    "C:\\Users\\REPCOM\\Documents\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj",
+        "projectUniqueName": "C:\\Users\\REPCOM\\Documents\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj",
         "projectName": "Lux-Lens.Core",
-        "projectPath": "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj",
-        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\obj\\",
+        "projectPath": "C:\\Users\\REPCOM\\Documents\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj",
+        "packagesPath": "C:\\Users\\REPCOM\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\REPCOM\\Documents\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\REPCOM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -191,8 +201,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -201,21 +210,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj": {
+    "C:\\Users\\REPCOM\\Documents\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\REPCOM\\Documents\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj",
         "projectName": "Lux-Lens.DataAccess",
-        "projectPath": "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\REPCOM\\Documents\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\REPCOM\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\REPCOM\\Documents\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\REPCOM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -229,8 +242,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj": {
-                "projectPath": "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj"
+              "C:\\Users\\REPCOM\\Documents\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj": {
+                "projectPath": "C:\\Users\\REPCOM\\Documents\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj"
               }
             }
           }
@@ -276,8 +289,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -286,7 +298,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
