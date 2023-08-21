@@ -20,6 +20,10 @@ export class CreateModalComponent {
 
   constructor(public activeModal: NgbActiveModal, private http: HttpClient) { }
 
+  cancelar() {
+    this.activeModal.close();
+  }
+
   guardarDatos() {
     const data: LensForecast = {
       modelo: this.forecast.modelo,

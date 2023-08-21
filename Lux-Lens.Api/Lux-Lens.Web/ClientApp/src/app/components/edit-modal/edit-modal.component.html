@@ -1,31 +1,40 @@
-
-<div class="container">
-  <h2>Editar Datos de Lentes</h2>
-  <form>
-    <div class="mb-3">
-      <label for="modelo" class="form-label">Modelo</label>
-      <input type="text" class="form-control" id="modelo" name="Modelo" [(ngModel)]="forecast.modelo" required>
-    </div>
-    <div class="mb-3">
-      <label for="marca" class="form-label">Marca</label>
-      <input type="text" class="form-control" id="marca" name="Marca" [(ngModel)]="forecast.marca" required>
-    </div>
-    <div class="mb-3">
-      <label for="color" class="form-label">Color</label>
-      <input type="text" class="form-control" id="color" name="Color" [(ngModel)]="forecast.color" required>
-    </div>
-    <div class="mb-3">
-      <label for="material" class="form-label">Material</label>
-      <input type="text" class="form-control" id="material" name="Material" [(ngModel)]="forecast.material" required>
-    </div>
-    <div class="mb-3">
-      <label for="precio" class="form-label">Precio</label>
-      <input type="number" class="form-control" id="precio" name="Precio" [(ngModel)]="forecast.precio" required>
-    </div>
-    <div class="mb-3">
-      <label for="cantidad" class="form-label">Cantidad</label>
-      <input type="number" class="form-control" id="cantidad" name="Cantidad" [(ngModel)]="forecast.cantidad" required>
-    </div>
-    <button type="submit" class="btn btn-primary" (click) ="guardarEdicion()">Guardar</button>
-  </form>
+<div class="container mt-2">
+  <div style="margin:30px ;">
+    <h2>Editar Datos de Lentes</h2>
+    <form>
+      <div class="mb-3">
+        <label for="modelo" class="form-label">Modelo</label>
+        <input type="text" class="form-control" id="modelo" name="Modelo" [(ngModel)]="forecast.modelo" required>
+      </div>
+      <div class="mb-3">
+        <label for="marca" class="form-label">Marca</label>
+        <input type="text" class="form-control" id="marca" name="Marca" [(ngModel)]="forecast.marca" required>
+      </div>
+      <div class="mb-3">
+        <label for="color" class="form-label">Color</label>
+        <input type="text" class="form-control" id="color" name="Color" [(ngModel)]="forecast.color" required>
+      </div>
+      <div class="mb-3">
+        <label for="material" class="form-label">Material</label>
+        <input type="text" class="form-control" id="material" name="Material" [(ngModel)]="forecast.material" required>
+      </div>
+      <div class="mb-3">
+        <label for="precio" class="form-label">Precio</label>
+        <input type="number" class="form-control" id="precio" name="Precio" [(ngModel)]="forecast.precio" required>
+      </div>
+      <div class="mb-3">
+        <label for="cantidad" class="form-label">Cantidad</label>
+        <input type="number" class="form-control" id="cantidad" name="Cantidad" [(ngModel)]="forecast.cantidad" required>
+      </div>
+      <div style="margin:20px 0px">
+        <div style="float:left">
+          <button type="submit" class="btn btn-primary" (click)="guardarEdicion()">Guardar</button>
+        </div>
+        <div style="float:right; margin-bottom:30px">
+          <button type="button" class="btn btn-secondary" (click)="cancelar()" data-dismiss="modal">Cancelar</button>
+        </div>
+      </div>
+      
+    </form>
+  </div>
 </div>

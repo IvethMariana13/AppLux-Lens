@@ -21,6 +21,10 @@ export class EditModalComponent implements OnInit{
     }
   }
 
+  cancelar() {
+    this.activeModal.close();
+  }
+
   obtenerDetallesParaEdicion() {
     this.http.get<LensForecast>('https://localhost:44326/api/Lens/GetById/' + this.id).subscribe(result => {
       this.forecast = result;
