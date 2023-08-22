@@ -23,14 +23,14 @@ export class TableLensComponent implements OnInit {
 
 
   getAll() {
-    this.http.get<LensForecast[]>('https://localhost:44326/api/Lens/GetAll').subscribe(result => {
+    this.http.get<LensForecast[]>('https://localhost:7080/api/Lens/GetAll').subscribe(result => {
       this.forecasts = result;
     }, error => console.error(error));
   }
 
 
   borrarRegistro(id: number) {
-    this.http.delete('https://localhost:44326/api/Lens/Delete/' + id).subscribe(error => console.error(error));
+    this.http.delete('https://localhost:7080/api/Lens/Delete/' + id).subscribe(error => console.error(error));
     location.reload();
   }
 

@@ -34,17 +34,15 @@ export class CreateModalComponent {
       cantidad: this.forecast.cantidad
     };
 
-    this.http.post('https://localhost:44326/api/Lens/Create', data).subscribe(
+    this.http.post('https://localhost:7080/api/Lens/Create', data).subscribe(
       () => {
         this.activeModal.close('Creado exitosamente');
+        location.reload();
       },
       error => {
         console.error(error);
       }
     );
-
-    location.reload();
-    this.activeModal.close('Creado exitosamente');
   }
 }
 

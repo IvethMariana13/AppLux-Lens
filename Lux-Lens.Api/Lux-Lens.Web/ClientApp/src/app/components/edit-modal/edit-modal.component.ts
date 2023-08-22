@@ -26,7 +26,7 @@ export class EditModalComponent implements OnInit{
   }
 
   obtenerDetallesParaEdicion() {
-    this.http.get<LensForecast>('https://localhost:44326/api/Lens/GetById/' + this.id).subscribe(result => {
+    this.http.get<LensForecast>('https://localhost:7080/api/Lens/GetById/' + this.id).subscribe(result => {
       this.forecast = result;
     }, error => console.error(error));
   }
@@ -42,7 +42,7 @@ export class EditModalComponent implements OnInit{
       cantidad: this.forecast.cantidad
     };
 
-    this.http.put('https://localhost:44326/api/Lens/Edit/' + this.id, editedData).subscribe(
+    this.http.put('https://localhost:7080/api/Lens/Edit/' + this.id, editedData).subscribe(
       () => {
         this.activeModal.close('Editado exitosamente');
       },
