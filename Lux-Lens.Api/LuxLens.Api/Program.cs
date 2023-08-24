@@ -21,12 +21,14 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddTransient<ILensService, LensService>();
 builder.Services.AddTransient<IUserService, UserService>();
 builder.Services.AddTransient<IRepository<int, Lens>, Repository<int, Lens>>();
+
 builder.Services.AddAutoMapper(typeof(Lux_Lens.ApplicationServices.MapperProfile));
 //Conexion de Bd
 
 string connectionString = builder.Configuration.GetConnectionString("Default");
 builder.Services.AddDbContext<LensDbContext>(options =>
                 options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+
 
 
 
@@ -120,6 +122,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

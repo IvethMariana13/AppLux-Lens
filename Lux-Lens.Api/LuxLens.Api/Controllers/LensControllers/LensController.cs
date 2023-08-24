@@ -25,8 +25,8 @@ namespace LuxLens.Api.Controllers.LensControllers
         {
             return await _lensService.GetLensByIdAsync(id);
         }
-
         [HttpGet("GetAll")]
+        [Authorize(Roles = "Admin")]
         public async Task<List<Lens>> GetAllLenses()
         {
             return await _lensService.GetLensAsync();
