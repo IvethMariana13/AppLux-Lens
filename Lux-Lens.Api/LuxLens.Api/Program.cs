@@ -4,6 +4,7 @@ using Lux_Lens.Core.Entities;
 using Lux_Lens.DataAccess;
 using Lux_Lens.DataAccess.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
@@ -26,6 +27,11 @@ builder.Services.AddAutoMapper(typeof(Lux_Lens.ApplicationServices.MapperProfile
 string connectionString = builder.Configuration.GetConnectionString("Default");
 builder.Services.AddDbContext<LensDbContext>(options =>
                 options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+
+
+
+builder.Services.AddIdentity<IdentityUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
+                .AddEntityFrameworkStores<LensDbContext>();
 
 builder.Services.AddSwaggerGen(option =>
 {

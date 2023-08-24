@@ -10,6 +10,7 @@ namespace LuxLens.Api.Controllers.LensControllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class LensController : ControllerBase
     {
         private readonly ILensService _lensService;
