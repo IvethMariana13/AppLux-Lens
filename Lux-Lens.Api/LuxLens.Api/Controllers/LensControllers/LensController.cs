@@ -21,17 +21,19 @@ namespace LuxLens.Api.Controllers.LensControllers
         }
 
         [HttpGet("GetById/{id}")]
+        [Authorize(Roles = "Admin, Rol Read")]
         public async Task<Lens> GetById(int id)
         {
             return await _lensService.GetLensByIdAsync(id);
         }
         [HttpGet("GetAll")]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin, Rol Read")]
         public async Task<List<Lens>> GetAllLenses()
         {
             return await _lensService.GetLensAsync();
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost("Create")]
         public async Task Create(LensDto lens)
         {
@@ -39,6 +41,7 @@ namespace LuxLens.Api.Controllers.LensControllers
         }
 
         [HttpPut("Edit/{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task EditLens(int id, [FromBody] LensDto value)
         {
             await _lensService.EditLensAsync(value, id);
@@ -46,6 +49,7 @@ namespace LuxLens.Api.Controllers.LensControllers
         
 
         [HttpDelete("Delete/{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task DeleteLens(int id)
         {
             await _lensService.DeleteLensAsync(id);

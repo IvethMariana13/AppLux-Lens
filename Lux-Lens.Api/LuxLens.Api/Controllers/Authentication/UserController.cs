@@ -9,6 +9,7 @@ namespace LuxLens.Api.Controllers.Authentication
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class UserController : ControllerBase
     {
         
@@ -25,6 +26,7 @@ namespace LuxLens.Api.Controllers.Authentication
 
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Post([FromBody] NewUserDto value)
         {
 
@@ -71,6 +73,7 @@ namespace LuxLens.Api.Controllers.Authentication
         }
 
         [HttpPost("create-role")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> CreateRole([FromBody] string roleName)
         {
             if (!await _roleManager.RoleExistsAsync(roleName))
@@ -92,6 +95,7 @@ namespace LuxLens.Api.Controllers.Authentication
         }
 
         [HttpPost("assign-role")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> AssignRoleToUser(string userId, string roleName)
         {
             var user = await _userManager.FindByIdAsync(userId); // Encuentra al usuario por su Id
