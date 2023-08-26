@@ -1,22 +1,14 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using System.Security.Cryptography.X509Certificates;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
-namespace LuxLens.Api.Controllers.LensControllers
+namespace LuxLens.Api.Controllers.Authentication
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class TestController : ControllerBase
+    public class CertController : ControllerBase
     {
-        // GET: api/<TestController>
-        [HttpGet]
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
-
-        [HttpGet("Cert")]
+        [HttpGet("Test")]
         public IActionResult CheckClientCertificate()
         {
             // Accede a la colección de certificados del cliente
@@ -46,31 +38,6 @@ namespace LuxLens.Api.Controllers.LensControllers
                 // El certificado del cliente no pasó las verificaciones
                 return BadRequest("Client certificate is invalid.");
             }
-        }
-
-        // GET api/<TestController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
-
-        // POST api/<TestController>
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
-
-        // PUT api/<TestController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<TestController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
         }
     }
 }

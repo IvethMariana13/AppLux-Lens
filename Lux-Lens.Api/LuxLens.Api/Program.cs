@@ -3,6 +3,7 @@ using Lux_Lens.ApplicationServices.Lens.Authentication;
 using Lux_Lens.Core.Entities;
 using Lux_Lens.DataAccess;
 using Lux_Lens.DataAccess.Repositories;
+using Microsoft.AspNetCore.Authentication.Certificate;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Server.Kestrel.Core;
@@ -11,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using System.Net;
 using System.Net.Security;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -93,6 +95,10 @@ builder.Services
         };
     });
 
+builder.Services.AddAuthentication(
+        CertificateAuthenticationDefaults.AuthenticationScheme)
+    .AddCertificate();
+
 //CORS
 builder.Services.AddCors(options =>
     {
@@ -105,6 +111,25 @@ builder.Services.AddCors(options =>
     });
 
 //Certificado del servidor
+
+builder.Services.AddCertificateForwarding(options =>
+{
+    options.CertificateHeader = "X-SSL-CERT";
+
+    options.HeaderConverter = (headerValue) =>
+    {
+        X509Certificate2? clientCertificate = null;
+
+        if (!string.IsNullOrWhiteSpace(headerValue))
+        {
+            clientCertificate = X509Certificate2.CreateFromPem(
+                WebUtility.UrlDecode(headerValue));
+        }
+
+        return clientCertificate!;
+    };
+});
+
 var host = Host.CreateDefaultBuilder(args)
     .ConfigureWebHostDefaults(webBuilder =>
     {
@@ -156,6 +181,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCertificateForwarding();
 
 app.UseAuthentication();
 app.UseAuthorization();

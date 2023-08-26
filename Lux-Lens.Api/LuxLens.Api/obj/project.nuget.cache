@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6VDAZ7KNf7abEvpjGHuNq01xSwGqIpNz9ZJWawXQ+gSxBP+v5UvemTEAES/+XpFZAI6m1CZaB12cqv/du1v57A==",
+  "dgSpecHash": "g4UA8IXCAvtlw9+HikpZB9MqPT9cS2MDYJsfPCWKIIgPGGqIWbFcJ44VUTdflS0p5Zn6Wujx0hJBDtpubVM5ow==",
   "success": true,
   "projectFilePath": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\LuxLens.Api\\LuxLens.Api.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\josep\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\josep\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\josep\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\josep\\.nuget\\packages\\microsoft.aspnetcore.authentication.certificate\\6.0.21\\microsoft.aspnetcore.authentication.certificate.6.0.21.nupkg.sha512",
     "C:\\Users\\josep\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\josep\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.21\\microsoft.aspnetcore.authentication.jwtbearer.6.0.21.nupkg.sha512",
     "C:\\Users\\josep\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",

@@ -40,7 +40,7 @@ namespace ExampleClient.Controllers
 
             try
             {
-                var response = await client.GetAsync("/api/Test");
+                var response = await client.GetAsync("/api/Test/Cert");
 
                 if (response.IsSuccessStatusCode)
                 {
