@@ -5,9 +5,14 @@ using Lux_Lens.DataAccess;
 using Lux_Lens.DataAccess.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Server.Kestrel.Core;
+using Microsoft.AspNetCore.Server.Kestrel.Https;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using System.Net.Security;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -96,6 +101,36 @@ builder.Services.AddCors(options =>
             builder.AllowAnyOrigin()
             .AllowAnyHeader()
             .AllowAnyMethod();
+        });
+    });
+
+//Certificado del servidor
+var host = Host.CreateDefaultBuilder(args)
+    .ConfigureWebHostDefaults(webBuilder =>
+    {
+        webBuilder.ConfigureKestrel(serverOptions =>
+        {
+            serverOptions.ConfigureHttpsDefaults(httpsOptions =>
+            {
+                // Cargar el certificado del servidor desde un archivo .pfx
+                var serverCertificate = new X509Certificate2("certificate/server.pfx", "P@sw0rd1");
+
+                httpsOptions.ServerCertificate = serverCertificate;
+                httpsOptions.ClientCertificateMode = ClientCertificateMode.RequireCertificate;// Requiere certificado del cliente 
+                httpsOptions.ClientCertificateValidation = (certificate, chain, errors) =>
+                {
+                    if (errors == SslPolicyErrors.None)
+                    {
+                        return true;
+                    }
+                    else
+                    {
+                        // El certificado del cliente no es válido, puedes registrar los errores si es necesario
+                        Console.WriteLine($"Errores de validación del certificado: {errors}");
+                        return false;
+                    }
+                };
+            });
         });
     });
 
