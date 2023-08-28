@@ -5,6 +5,7 @@ using Lux_Lens.DataAccess;
 using Lux_Lens.DataAccess.Repositories;
 using Microsoft.AspNetCore.Authentication.Certificate;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Server.Kestrel.Core;
 using Microsoft.AspNetCore.Server.Kestrel.Https;
@@ -70,12 +71,32 @@ builder.Services.AddSwaggerGen(option =>
     });
 });
 
+//Kestrel
+builder.Services.Configure<KestrelServerOptions>(options =>
+{
+    options.ConfigureHttpsDefaults(options => {
+        // Utilizamos el certificado del servicio 1
+        options.ServerCertificate = X509Certificate2.CreateFromPemFile("certificate/server.crt", "certificate/server.key");
+        // Configuramos el protocolo mTLS
+        options.ClientCertificateMode = ClientCertificateMode.RequireCertificate;
+        // Aceptamos cualquier certificado de cliente porque relaizaremos la autenticación en el middleware de autenticación
+        options.AllowAnyClientCertificate();
+    });
+
+});
+
 builder.Services
     .AddHttpContextAccessor()
-    .AddAuthorization()
+    //.AddAuthorization(options =>
+    //{
+    //    // requiere autenticación para acceder a cualquier endpoint
+    //    options.FallbackPolicy = new AuthorizationPolicyBuilder()
+    //        .RequireAuthenticatedUser()
+    //        .Build();
+    //})
     .AddAuthentication(options =>
     {
-        options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+        options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme /*CertificateAuthenticationDefaults.AuthenticationScheme*/;
         options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
         options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
     })
@@ -95,9 +116,31 @@ builder.Services
         };
     });
 
-builder.Services.AddAuthentication(
-        CertificateAuthenticationDefaults.AuthenticationScheme)
-    .AddCertificate();
+builder
+    .Services
+    .AddAuthorization(options =>
+    {
+        // requiere autenticación para acceder a cualquier endpoint
+        options.FallbackPolicy = new AuthorizationPolicyBuilder()
+            .RequireAuthenticatedUser()
+            .Build();
+    })
+    .AddAuthentication(CertificateAuthenticationDefaults.AuthenticationScheme)
+    .AddCertificate(options =>
+    {
+        // ignoramos la revocación de los certificados
+        options.RevocationMode = X509RevocationMode.NoCheck;
+        // validamos la fecha de caducidad
+        options.ValidateValidityPeriod = true;
+        // validamos que el certificado sea de tipo chained
+        options.AllowedCertificateTypes = CertificateTypes.Chained;
+        // le indicamos que la cadena de confianza la vamos a especificar nosotros
+        options.ChainTrustValidationMode = X509ChainTrustMode.CustomRootTrust;
+        // añadimos la CA como raíz de confianza
+        var rootcert = new X509Certificate2("certificate/ca.crt");
+        options.CustomTrustStore.Clear();
+        options.CustomTrustStore.Add(rootcert);
+    });
 
 //CORS
 builder.Services.AddCors(options =>
@@ -110,54 +153,8 @@ builder.Services.AddCors(options =>
         });
     });
 
-//Certificado del servidor
 
-builder.Services.AddCertificateForwarding(options =>
-{
-    options.CertificateHeader = "X-SSL-CERT";
 
-    options.HeaderConverter = (headerValue) =>
-    {
-        X509Certificate2? clientCertificate = null;
-
-        if (!string.IsNullOrWhiteSpace(headerValue))
-        {
-            clientCertificate = X509Certificate2.CreateFromPem(
-                WebUtility.UrlDecode(headerValue));
-        }
-
-        return clientCertificate!;
-    };
-});
-
-var host = Host.CreateDefaultBuilder(args)
-    .ConfigureWebHostDefaults(webBuilder =>
-    {
-        webBuilder.ConfigureKestrel(serverOptions =>
-        {
-            serverOptions.ConfigureHttpsDefaults(httpsOptions =>
-            {
-                // Cargar el certificado del servidor desde un archivo .pfx
-                var serverCertificate = new X509Certificate2("certificate/server.pfx", "P@sw0rd1");
-
-                httpsOptions.ServerCertificate = serverCertificate;
-                httpsOptions.ClientCertificateMode = ClientCertificateMode.RequireCertificate;// Requiere certificado del cliente 
-                httpsOptions.ClientCertificateValidation = (certificate, chain, errors) =>
-                {
-                    if (errors == SslPolicyErrors.None)
-                    {
-                        return true;
-                    }
-                    else
-                    {
-                        // El certificado del cliente no es válido, puedes registrar los errores si es necesario
-                        Console.WriteLine($"Errores de validación del certificado: {errors}");
-                        return false;
-                    }
-                };
-            });
-        });
-    });
 
 var app = builder.Build();
 
@@ -182,11 +179,10 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseCertificateForwarding();
-
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+app.MapGet("/", () => "Hello World!");
 
 app.Run();

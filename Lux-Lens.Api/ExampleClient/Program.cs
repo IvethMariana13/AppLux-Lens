@@ -12,22 +12,44 @@ builder.Services.AddSwaggerGen(c =>
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Test API DF", Version = "v1" });
 });
 
-builder.Services.AddHttpClient("MyApiClient", client =>
+
+var handler = new HttpClientHandler();
+handler.ClientCertificates.Add(X509Certificate2.CreateFromPemFile("D:/PuntoSingular/Luxottica/LuxlensFork/AppLux-Lens/Lux-Lens.Api/LuxLens.Api/certificate/client.crt", "D:/PuntoSingular/Luxottica/LuxlensFork/AppLux-Lens/Lux-Lens.Api/LuxLens.Api/certificate/client.key"));
+
+handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) =>
 {
-    // Configura la autenticación Mutual TLS
-    client.BaseAddress = new Uri("https://localhost:44326");
-}).ConfigurePrimaryHttpMessageHandler(() =>
-{
-    var handler = new HttpClientHandler();
+    // creamos una política de validación de certificados
+    var chainPolicy = new X509ChainPolicy
+    {
+        // ignoramos la revocación de los certificados
+        RevocationFlag = (X509RevocationFlag)X509RevocationMode.NoCheck,
+        // validamos la cadena de certificados
+        RevocationMode = (X509RevocationMode)X509RevocationFlag.EntireChain,
+        // le indicamos que la cadena de confianza la vamos a especificar nosotros
+        TrustMode = X509ChainTrustMode.CustomRootTrust,
+        // validamos la fecha de caducidad
+        VerificationTime = DateTime.Now,
+    };
 
-    // Configura el certificado del cliente
-    handler.ClientCertificates.Add(new X509Certificate2("certificate/client.pfx", "P@sw0rd1"));
+    // añadimos la CA como raíz de confianza
+    var rootcert = new X509Certificate2("D:/PuntoSingular/Luxottica/LuxlensFork/AppLux-Lens/Lux-Lens.Api/LuxLens.Api/certificate/ca.crt");
+    chainPolicy.CustomTrustStore.Clear();
+    chainPolicy.CustomTrustStore.Add(rootcert);
 
-    // Habilita la validación del certificado del servidor (opcional pero recomendado)
-    handler.ServerCertificateCustomValidationCallback = (sender, certificate, chain, sslPolicyErrors) => true;
+    // asignamos la política de validación a la cadena de certificados
+    chain ??= new X509Chain();
+    chain.ChainPolicy = chainPolicy;
 
-    return handler;
-});
+    // validamos el certificado que nos viene del servidor
+    var certificateIsValid = chain.Build(cert);
+    return certificateIsValid;
+};
+
+var client = new HttpClient(handler);
+
+var response = await client.GetAsync("https://localhost:44326/");
+Console.WriteLine(response.StatusCode);
+Console.WriteLine(await response.Content.ReadAsStringAsync());
 
 var app = builder.Build();
 

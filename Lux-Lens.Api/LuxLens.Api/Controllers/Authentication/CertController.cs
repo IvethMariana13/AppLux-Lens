@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Cryptography.X509Certificates;
 
@@ -6,6 +7,7 @@ namespace LuxLens.Api.Controllers.Authentication
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class CertController : ControllerBase
     {
         [HttpGet("Test")]

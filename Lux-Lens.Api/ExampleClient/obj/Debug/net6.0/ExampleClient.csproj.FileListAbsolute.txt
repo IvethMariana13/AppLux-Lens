@@ -5,6 +5,8 @@ D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\ExampleClient\bi
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\ExampleClient\bin\Debug\net6.0\ExampleClient.runtimeconfig.json
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\ExampleClient\bin\Debug\net6.0\ExampleClient.dll
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\ExampleClient\bin\Debug\net6.0\ExampleClient.pdb
+D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\ExampleClient\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Certificate.dll
+D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\ExampleClient\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\ExampleClient\bin\Debug\net6.0\Microsoft.OpenApi.dll
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\ExampleClient\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\ExampleClient\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
@@ -30,5 +32,3 @@ D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\ExampleClient\ob
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\ExampleClient\obj\Debug\net6.0\ExampleClient.pdb
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\ExampleClient\obj\Debug\net6.0\ExampleClient.genruntimeconfig.cache
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\ExampleClient\obj\Debug\net6.0\ref\ExampleClient.dll
-D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\ExampleClient\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Certificate.dll
-D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\ExampleClient\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll

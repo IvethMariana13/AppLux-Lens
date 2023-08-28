@@ -2476,6 +2476,7 @@ C:\Users\maria\OneDrive\Escritorio\LuxLens\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\
 C:\Users\maria\OneDrive\Escritorio\LuxLens\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\obj\Debug\net6.0\ref\LuxLens.Api.dll
 C:\Users\maria\OneDrive\Escritorio\LuxLens\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\REPCOM\Documents\GitHub\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\appsettings.Development.json
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\appsettings.json
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\LuxLens.Api.staticwebassets.runtime.json
@@ -2769,6 +2770,7 @@ D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\AutoMapper.dll
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\Humanizer.dll
+D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Certificate.dll
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
@@ -2795,7 +2797,6 @@ D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
@@ -2893,4 +2894,3 @@ D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\obj\
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\obj\Debug\net6.0\LuxLens.Api.pdb
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\obj\Debug\net6.0\LuxLens.Api.genruntimeconfig.cache
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\obj\Debug\net6.0\ref\LuxLens.Api.dll
-D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Certificate.dll
