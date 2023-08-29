@@ -114,7 +114,7 @@ builder
     .AddAuthorization(options =>
     {
         // requiere autenticación para acceder a cualquier endpoint
-        options.FallbackPolicy = new AuthorizationPolicyBuilder()
+        options.DefaultPolicy = new AuthorizationPolicyBuilder()
             .RequireAuthenticatedUser()
             .Build();
     })

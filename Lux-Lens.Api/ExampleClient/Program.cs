@@ -56,8 +56,8 @@ var model = new LoginViewModel
     Password = "P@sw0rd1"
 };
 
-client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", jwtToken);
-var response = await client.GetAsync("https://localhost:44326/api/Login" + model);
+//client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", jwtToken);
+var response = await client.PostAsJsonAsync("https://localhost:44326/api/Login/", model);
 var content = await response.Content.ReadAsStringAsync();
 Console.WriteLine(response.StatusCode);
 Console.WriteLine(await response.Content.ReadAsStringAsync());
