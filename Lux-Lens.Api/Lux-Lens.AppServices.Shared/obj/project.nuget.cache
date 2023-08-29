@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s6o9bdzh0rVJR9Y4CpvPB8+ulFrk1NZc3TLMZ4Ho/fkGDSNN9Ymalo0L6lb2q9ClVBwsJhj0PyWwmv73YlVhFQ==",
+  "dgSpecHash": "T3ToauTfk34eSNQQTSWwTE2bcDzf7GkQrMADmI6yEWwSYW34jARLpIaKP1+31QNPjqBjou4RiUhhMnmEqxLh1g==",
   "success": true,
-  "projectFilePath": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\Lux-Lens.AppServices.Shared.csproj",
+  "projectFilePath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\Lux-Lens.AppServices.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\josep\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\josep\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

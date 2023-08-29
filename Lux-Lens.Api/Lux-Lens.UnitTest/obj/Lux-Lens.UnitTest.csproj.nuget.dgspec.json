@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.UnitTest\\Lux-Lens.UnitTest.csproj": {}
+  },
+  "projects": {
+    "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.UnitTest\\Lux-Lens.UnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.UnitTest\\Lux-Lens.UnitTest.csproj",
+        "projectName": "Lux-Lens.UnitTest",
+        "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.UnitTest\\Lux-Lens.UnitTest.csproj",
+        "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
+        "outputPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.UnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VS22Folder\\Visual_Studio_Components\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\josep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

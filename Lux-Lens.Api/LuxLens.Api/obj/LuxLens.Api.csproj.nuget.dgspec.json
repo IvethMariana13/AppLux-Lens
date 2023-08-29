@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\LuxLens.Api\\LuxLens.Api.csproj": {}
+    "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\LuxLens.Api\\LuxLens.Api.csproj": {}
   },
   "projects": {
-    "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj": {
+    "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj",
+        "projectUniqueName": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj",
         "projectName": "Lux-Lens.ApplicationServices",
-        "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj",
+        "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj",
         "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-        "outputPath": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\obj\\",
+        "outputPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\VS22Folder\\Visual_Studio_Components\\NuGetPackages"
@@ -32,14 +32,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\Lux-Lens.AppServices.Shared.csproj": {
-                "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\Lux-Lens.AppServices.Shared.csproj"
+              "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\Lux-Lens.AppServices.Shared.csproj": {
+                "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\Lux-Lens.AppServices.Shared.csproj"
               },
-              "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj": {
-                "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj"
+              "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj": {
+                "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj"
               },
-              "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj": {
-                "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj"
+              "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj": {
+                "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\Lux-Lens.AppServices.Shared.csproj": {
+    "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\Lux-Lens.AppServices.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\Lux-Lens.AppServices.Shared.csproj",
+        "projectUniqueName": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\Lux-Lens.AppServices.Shared.csproj",
         "projectName": "Lux-Lens.AppServices.Shared",
-        "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\Lux-Lens.AppServices.Shared.csproj",
+        "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\Lux-Lens.AppServices.Shared.csproj",
         "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-        "outputPath": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\obj\\",
+        "outputPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.AppServices.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\VS22Folder\\Visual_Studio_Components\\NuGetPackages"
@@ -107,8 +107,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj": {
-                "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj"
+              "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj": {
+                "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj"
               }
             }
           }
@@ -148,14 +148,14 @@
         }
       }
     },
-    "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj": {
+    "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj",
+        "projectUniqueName": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj",
         "projectName": "Lux-Lens.Core",
-        "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj",
+        "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj",
         "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-        "outputPath": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\obj\\",
+        "outputPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\VS22Folder\\Visual_Studio_Components\\NuGetPackages"
@@ -217,14 +217,14 @@
         }
       }
     },
-    "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj": {
+    "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj",
+        "projectUniqueName": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj",
         "projectName": "Lux-Lens.DataAccess",
-        "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj",
+        "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj",
         "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-        "outputPath": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\obj\\",
+        "outputPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\VS22Folder\\Visual_Studio_Components\\NuGetPackages"
@@ -245,8 +245,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj": {
-                "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj"
+              "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj": {
+                "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj"
               }
             }
           }
@@ -306,14 +306,14 @@
         }
       }
     },
-    "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\LuxLens.Api\\LuxLens.Api.csproj": {
+    "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\LuxLens.Api\\LuxLens.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\LuxLens.Api\\LuxLens.Api.csproj",
+        "projectUniqueName": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\LuxLens.Api\\LuxLens.Api.csproj",
         "projectName": "LuxLens.Api",
-        "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\LuxLens.Api\\LuxLens.Api.csproj",
+        "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\LuxLens.Api\\LuxLens.Api.csproj",
         "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-        "outputPath": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\LuxLens.Api\\obj\\",
+        "outputPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\LuxLens.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\VS22Folder\\Visual_Studio_Components\\NuGetPackages"
@@ -334,8 +334,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj": {
-                "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj"
+              "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj": {
+                "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj"
               }
             }
           }

@@ -4653,11 +4653,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj",
+      "projectUniqueName": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj",
       "projectName": "Lux-Lens.DataAccess",
-      "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj",
+      "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj",
       "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-      "outputPath": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\obj\\",
+      "outputPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\VS22Folder\\Visual_Studio_Components\\NuGetPackages"
@@ -4678,8 +4678,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj": {
-              "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj"
+            "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj": {
+              "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.Core\\Lux-Lens.Core.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9M+1hDZDIZeY93mftvaUlE0nkieEyW3ku+asNlQmR5ZW2pAn5kAhpNuDVfcY10M3UNZamqAReNBSI38hsl5dsA==",
+  "dgSpecHash": "CTMr4y+yd/vn8PzwDhfYf6kYd7iePsqj1FNDwbV9gHRax2+bkHeYuFJeYjUtQ5gX23/pxyflNlbqv1N23nRMPw==",
   "success": true,
-  "projectFilePath": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj",
+  "projectFilePath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.DataAccess\\Lux-Lens.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\josep\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\josep\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

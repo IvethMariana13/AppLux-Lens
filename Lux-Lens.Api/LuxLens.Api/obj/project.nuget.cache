@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g4UA8IXCAvtlw9+HikpZB9MqPT9cS2MDYJsfPCWKIIgPGGqIWbFcJ44VUTdflS0p5Zn6Wujx0hJBDtpubVM5ow==",
+  "dgSpecHash": "1vYRkHVTlTxb4CF/+gCchqIjDNFRiTVeUUeElNdL0r5Q1848bc3mXeMZe445F8w7igRInNb0DXi01mRvm1Ge3g==",
   "success": true,
-  "projectFilePath": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\LuxLens.Api\\LuxLens.Api.csproj",
+  "projectFilePath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\LuxLens.Api\\LuxLens.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\josep\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\josep\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j3EF6iv5wx+xHoWUT/G6upU6CKRmgH0Y4vlbK4HzUHKoX4yRkTxQ9CJw1mdlf9ts5dypB5VVPQf7N2+JA7poDg==",
+  "dgSpecHash": "TL2dJzdOXSfKHvM3ogf832JEWBDIz9IMDCGzsQAJNXYe+OtYqAbYm6QiUPV9+LczPiTQh/B0vJEz3JIAfxNCiA==",
   "success": true,
-  "projectFilePath": "D:\\PuntoSingular\\Luxottica\\LuxlensFork\\AppLux-Lens\\Lux-Lens.Api\\ExampleClient\\ExampleClient.csproj",
+  "projectFilePath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\ExampleClient\\ExampleClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\josep\\.nuget\\packages\\microsoft.aspnetcore.authentication.certificate\\6.0.21\\microsoft.aspnetcore.authentication.certificate.6.0.21.nupkg.sha512",
     "C:\\Users\\josep\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
