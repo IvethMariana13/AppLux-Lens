@@ -87,16 +87,9 @@ builder.Services.Configure<KestrelServerOptions>(options =>
 
 builder.Services
     .AddHttpContextAccessor()
-    //.AddAuthorization(options =>
-    //{
-    //    // requiere autenticación para acceder a cualquier endpoint
-    //    options.FallbackPolicy = new AuthorizationPolicyBuilder()
-    //        .RequireAuthenticatedUser()
-    //        .Build();
-    //})
     .AddAuthentication(options =>
     {
-        options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme /*CertificateAuthenticationDefaults.AuthenticationScheme*/;
+        options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
         options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
         options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
     })
@@ -137,7 +130,7 @@ builder
         // le indicamos que la cadena de confianza la vamos a especificar nosotros
         options.ChainTrustValidationMode = X509ChainTrustMode.CustomRootTrust;
         // añadimos la CA como raíz de confianza
-        var rootcert = new X509Certificate2("certificate/ca.crt");
+        var rootcert = new X509Certificate2("certificate/server.crt");
         options.CustomTrustStore.Clear();
         options.CustomTrustStore.Add(rootcert);
     });
@@ -152,8 +145,6 @@ builder.Services.AddCors(options =>
             .AllowAnyMethod();
         });
     });
-
-
 
 
 var app = builder.Build();
@@ -179,10 +170,10 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
-app.MapGet("/", () => "Hello World!");
 
 app.Run();
