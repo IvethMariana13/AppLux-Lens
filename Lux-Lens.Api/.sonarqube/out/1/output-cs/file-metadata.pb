@@ -1,10 +1,0 @@
-f
-]C:\Users\maria\Downloads\AppLux-Lens\Lux-Lens.Api\ExampleClient\Controllers\MltsController.csutf-8q
-hC:\Users\maria\Downloads\AppLux-Lens\Lux-Lens.Api\ExampleClient\Controllers\WeatherForecastController.csutf-8Z
-QC:\Users\maria\Downloads\AppLux-Lens\Lux-Lens.Api\ExampleClient\LoginViewModel.csutf-8Z
-JC:\Users\maria\Downloads\AppLux-Lens\Lux-Lens.Api\ExampleClient\Program.cswindows-1252[
-RC:\Users\maria\Downloads\AppLux-Lens\Lux-Lens.Api\ExampleClient\WeatherForecast.csutf-8{
-pC:\Users\maria\Downloads\AppLux-Lens\Lux-Lens.Api\ExampleClient\obj\Debug\net6.0\ExampleClient.GlobalUsings.g.csutf-8ä
-C:\Users\maria\Downloads\AppLux-Lens\Lux-Lens.Api\ExampleClient\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8y
-nC:\Users\maria\Downloads\AppLux-Lens\Lux-Lens.Api\ExampleClient\obj\Debug\net6.0\ExampleClient.AssemblyInfo.csutf-8ç
-ÅC:\Users\maria\Downloads\AppLux-Lens\Lux-Lens.Api\ExampleClient\obj\Debug\net6.0\ExampleClient.MvcApplicationPartsAssemblyInfo.csutf-8

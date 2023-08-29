@@ -1,5 +1,0 @@
-﻿C:\Users\maria\Downloads\AppLux-Lens\Lux-Lens.Api\Lux-Lens.ApplicationServices\Lens\Authentication\IUserService.cs
-C:\Users\maria\Downloads\AppLux-Lens\Lux-Lens.Api\Lux-Lens.ApplicationServices\Lens\Authentication\UserService.cs
-C:\Users\maria\Downloads\AppLux-Lens\Lux-Lens.Api\Lux-Lens.ApplicationServices\Lens\ILensService.cs
-C:\Users\maria\Downloads\AppLux-Lens\Lux-Lens.Api\Lux-Lens.ApplicationServices\Lens\LensService.cs
-C:\Users\maria\Downloads\AppLux-Lens\Lux-Lens.Api\Lux-Lens.ApplicationServices\MapperProfile.cs

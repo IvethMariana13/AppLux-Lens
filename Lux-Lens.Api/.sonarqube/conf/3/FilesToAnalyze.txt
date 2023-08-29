@@ -1,6 +1,0 @@
-﻿C:\Users\maria\Downloads\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\LensDbContext.cs
-C:\Users\maria\Downloads\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\Migrations\20230818215544_LuxLens.cs
-C:\Users\maria\Downloads\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\Migrations\20230818215544_LuxLens.Designer.cs
-C:\Users\maria\Downloads\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\Migrations\LensDbContextModelSnapshot.cs
-C:\Users\maria\Downloads\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\Repositories\IRepository.cs
-C:\Users\maria\Downloads\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\Repositories\Repository.cs
