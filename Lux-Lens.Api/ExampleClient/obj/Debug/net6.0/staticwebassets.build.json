@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "+dfz9rxR5zxoiI0V7pWLl5lA870hKGEp8c7KCkPcLqo=",
+  "Source": "ExampleClient",
+  "BasePath": "_content/ExampleClient",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

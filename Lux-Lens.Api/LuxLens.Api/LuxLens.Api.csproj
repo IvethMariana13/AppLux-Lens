@@ -8,6 +8,8 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Certificate" Version="6.0.21" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.21" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.21" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.21" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.21" />
@@ -31,6 +33,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Lux-Lens.ApplicationServices\Lux-Lens.ApplicationServices.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="certificate\" />
   </ItemGroup>
 
 </Project>
