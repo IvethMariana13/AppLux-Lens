@@ -2894,3 +2894,5 @@ D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\obj\
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\obj\Debug\net6.0\LuxLens.Api.pdb
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\obj\Debug\net6.0\LuxLens.Api.genruntimeconfig.cache
 D:\PuntoSingular\Luxottica\LuxlensFork\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\obj\Debug\net6.0\ref\LuxLens.Api.dll
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Certificate.dll
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
