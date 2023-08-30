@@ -9,6 +9,7 @@
     <SpaProxyLaunchCommand>npm start</SpaProxyLaunchCommand>
     <RootNamespace>Lux_Lens.Web</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>08ce8229-1d96-48c9-a20d-785506296bcf</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

@@ -17,6 +17,9 @@ using System.Net;
 using System.Net.Security;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Configuration.UserSecrets;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -33,7 +36,8 @@ builder.Services.AddTransient<IRepository<int, Lens>, Repository<int, Lens>>();
 builder.Services.AddAutoMapper(typeof(Lux_Lens.ApplicationServices.MapperProfile));
 //Conexion de Bd
 
-string connectionString = builder.Configuration.GetConnectionString("Default");
+string connectionString = builder.Configuration["ConnectionStrings"];
+
 builder.Services.AddDbContext<LensDbContext>(options =>
                 options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
