@@ -33,29 +33,6 @@ namespace ExampleClient.Controllers
             .ToArray();
         }
 
-        [HttpGet("perform-authenticated-request")]
-        public async Task<IActionResult> PerformAuthenticatedRequest()
-        {
-            var client = _httpClientFactory.CreateClient("MyApiClient");
-
-            try
-            {
-                var response = await client.GetAsync("/api/Test/Cert");
-
-                if (response.IsSuccessStatusCode)
-                {
-                    var content = await response.Content.ReadAsStringAsync();
-                    return Ok(content);
-                }
-                else
-                {
-                    return StatusCode((int)response.StatusCode);
-                }
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
+       
     }
 }

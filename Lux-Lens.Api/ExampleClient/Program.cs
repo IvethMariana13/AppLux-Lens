@@ -49,11 +49,11 @@ handler.ServerCertificateCustomValidationCallback = (message, cert, chain, error
 
 var client = new HttpClient(handler);
 
-string jwtToken = "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9zaWQiOiJiMzliOWU1Yy02ZGRhLTRhM2YtODhhZC0yNWRjZTliZDE3ZWUiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidXNlckBleGFtcGxlLmNvbSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwiZXhwIjoxNjkzMzE4MDQ1LCJpc3MiOiJsb2NhbGhvc3QiLCJhdWQiOiJsb2NhbGhvc3QifQ.m99syS9DoDFECweVq1AMrubGzTBH5-7x1H-D_8dyZo0";
+string jwtToken = "";
 var model = new LoginViewModel
 {
-    UserName = "user@example.com",
-    Password = "P@sw0rd1"
+    UserName = "",
+    Password = ""
 };
 
 //client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", jwtToken);
