@@ -1,0 +1,14 @@
+a
+XE:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Web\Controllers\LensController.csutf-8l
+cE:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Web\Controllers\WeatherForecastController.csutf-8[
+RE:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Web\Models\LensViewModel.csutf-8Y
+PE:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Web\Pages\Error.cshtml.csutf-8N
+EE:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Web\Program.csutf-8V
+ME:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Web\WeatherForecast.csutf-8u
+jE:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Web\obj\Debug\net6.0\Lux-Lens.Web.GlobalUsings.g.csutf-8…
+zE:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Web\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8s
+hE:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Web\obj\Debug\net6.0\Lux-Lens.Web.AssemblyInfo.csutf-8†
+{E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Web\obj\Debug\net6.0\Lux-Lens.Web.MvcApplicationPartsAssemblyInfo.csutf-8x
+mE:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Web\obj\Debug\net6.0\Lux-Lens.Web.RazorAssemblyInfo.csutf-8‰
+~Microsoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Pages_Error_cshtml.g.csutf-8‘
+…Microsoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Pages__ViewImports_cshtml.g.csutf-8

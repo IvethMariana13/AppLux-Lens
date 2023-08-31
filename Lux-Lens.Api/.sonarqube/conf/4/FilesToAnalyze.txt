@@ -1,0 +1,6 @@
+﻿E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\LensDbContext.cs
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\Migrations\20230818215544_LuxLens.cs
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\Migrations\20230818215544_LuxLens.Designer.cs
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\Migrations\LensDbContextModelSnapshot.cs
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\Repositories\IRepository.cs
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\Repositories\Repository.cs

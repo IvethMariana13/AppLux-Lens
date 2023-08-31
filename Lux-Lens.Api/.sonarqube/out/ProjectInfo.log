@@ -1,0 +1,31 @@
+Product projects
+---------------------------------------
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\ExampleClient\ExampleClient.csproj
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Web\Lux-Lens.Web.csproj
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Core\Lux-Lens.Core.csproj
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.AppServices.Shared\Lux-Lens.AppServices.Shared.csproj
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\Lux-Lens.DataAccess.csproj
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.ApplicationServices\Lux-Lens.ApplicationServices.csproj
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\LuxLens.Api.csproj
+
+
+Test projects
+---------------------------------------
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.UnitTest\Lux-Lens.UnitTest.csproj
+
+
+Invalid projects
+---------------------------------------
+{none}
+
+
+Skipped projects
+---------------------------------------
+{none}
+
+
+Excluded projects
+---------------------------------------
+{none}
+
+

@@ -1,0 +1,234 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.7.0.0",
+        "fileVersion": "4.7.0-3.23366.1 (dad7898a)",
+        "semanticVersion": "4.7.0",
+        "language": "es-MX"
+      },
+      "results": [
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"UserName\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/ExampleClient/LoginViewModel.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/ExampleClient/LoginViewModel.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Password\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/ExampleClient/LoginViewModel.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/ExampleClient/LoginViewModel.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Posible argumento de referencia nulo para el parámetro \"certificate\" en \"bool X509Chain.Build(X509Certificate2 certificate)\".",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/ExampleClient/Program.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 42,
+                  "endLine": 46,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/ExampleClient/Program.cs",
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 1,
+                  "endLine": 50,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field '_httpClientFactory' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/ExampleClient/Controllers/WeatherForecastController.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 45,
+                  "endLine": 9,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field '_logger' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/ExampleClient/Controllers/WeatherForecastController.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 61,
+                  "endLine": 16,
+                  "endColumn": 68
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS8604": {
+          "id": "CS8604",
+          "shortDescription": "Posible argumento de referencia nulo",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8604)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Un campo que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declararlo como que admite un valor NULL.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S125": {
+          "id": "S125",
+          "shortDescription": "Sections of code should not be commented out",
+          "fullDescription": "Programmers should not comment out code as it bloats programs and reduces readability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S4487": {
+          "id": "S4487",
+          "shortDescription": "Unread \"private\" fields should be removed",
+          "fullDescription": "Private fields only used to store values without reading them later is a case of dead store. So changing the value of such field is useless and most probably indicates a serious error in the code.",
+          "defaultLevel": "note",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4487",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay",
+              "Unnecessary"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

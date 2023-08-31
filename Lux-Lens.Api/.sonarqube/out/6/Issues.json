@@ -1,0 +1,172 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.7.0.0",
+        "fileVersion": "4.7.0-3.23366.1 (dad7898a)",
+        "semanticVersion": "4.7.0",
+        "language": "es-MX"
+      },
+      "results": [
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field '_signInManager' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/LuxLens.Api/Controllers/Authentication/LoginController.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 54,
+                  "endLine": 17,
+                  "endColumn": 68
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field '_roleManager' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/LuxLens.Api/Controllers/Authentication/LoginController.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 52,
+                  "endLine": 18,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field '_userService' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/LuxLens.Api/Controllers/Authentication/LoginController.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 39,
+                  "endLine": 20,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S5122",
+          "level": "warning",
+          "message": "Make sure this permissive CORS policy is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/LuxLens.Api/Program.cs",
+                "region": {
+                  "startLine": 147,
+                  "startColumn": 13,
+                  "endLine": 147,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1825",
+          "level": "note",
+          "message": "Evite las asignaciones de matriz de longitud cero innecesarias.  Use Array.Empty<string>() en su lugar.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/LuxLens.Api/Program.cs",
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 13,
+                  "endLine": 73,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1825": {
+          "id": "CA1825",
+          "shortDescription": "Evite las asignaciones de matriz de longitud cero",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1825",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "S4487": {
+          "id": "S4487",
+          "shortDescription": "Unread \"private\" fields should be removed",
+          "fullDescription": "Private fields only used to store values without reading them later is a case of dead store. So changing the value of such field is useless and most probably indicates a serious error in the code.",
+          "defaultLevel": "note",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4487",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay",
+              "Unnecessary"
+            ]
+          }
+        },
+        "S5122": {
+          "id": "S5122",
+          "shortDescription": "Having a permissive Cross-Origin Resource Sharing policy is security-sensitive",
+          "fullDescription": "Having a permissive Cross-Origin Resource Sharing policy is security-sensitive. It has led in the past to the following vulnerabilities:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-5122",
+          "properties": {
+            "category": "Minor Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

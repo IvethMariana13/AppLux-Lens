@@ -1,0 +1,418 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.7.0.0",
+        "fileVersion": "4.7.0-3.23366.1 (dad7898a)",
+        "semanticVersion": "4.7.0",
+        "language": "es-MX"
+      },
+      "results": [
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Lens\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.DataAccess/LensDbContext.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 16,
+                  "endLine": 15,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.DataAccess/LensDbContext.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 36,
+                  "endLine": 14,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Posible argumento de referencia nulo para el parámetro \"entity\" en \"EntityEntry<TEntity> DbContext.Remove<TEntity>(TEntity entity)\".",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.DataAccess/Repositories/Repository.cs",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 38,
+                  "endLine": 43,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.DataAccess/Repositories/Repository.cs",
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 20,
+                  "endLine": 63,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3928",
+          "level": "warning",
+          "message": "The parameter name 'AddAsync entity must not be null' is not declared in the argument list.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.DataAccess/Repositories/Repository.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 23,
+                  "endLine": 24,
+                  "endColumn": 95
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3928",
+          "level": "warning",
+          "message": "The parameter name 'AddAsync entity must not be null' is not declared in the argument list.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.DataAccess/Repositories/Repository.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 23,
+                  "endLine": 70,
+                  "endColumn": 95
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4457",
+          "level": "warning",
+          "message": "Split this method into two, one handling parameters check and the other handling the asynchronous code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.DataAccess/Repositories/Repository.cs",
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 44,
+                  "endLine": 66,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.DataAccess/Repositories/Repository.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 23,
+                  "endLine": 70,
+                  "endColumn": 95
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4457",
+          "level": "warning",
+          "message": "Split this method into two, one handling parameters check and the other handling the asynchronous code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.DataAccess/Repositories/Repository.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 44,
+                  "endLine": 20,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.DataAccess/Repositories/Repository.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 23,
+                  "endLine": 24,
+                  "endColumn": 95
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S112",
+          "level": "warning",
+          "message": "'System.Exception' should not be thrown by user code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.DataAccess/Repositories/Repository.cs",
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 23,
+                  "endLine": 56,
+                  "endColumn": 81
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S112",
+          "level": "warning",
+          "message": "'System.Exception' should not be thrown by user code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.DataAccess/Repositories/Repository.cs",
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 23,
+                  "endLine": 36,
+                  "endColumn": 90
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2208",
+          "level": "note",
+          "message": "El método AddAsync pasa \"AddAsync entity must not be null\" como argumento paramName a un constructor ArgumentNullException. Reemplace este argumento por uno de los nombres de parámetros del método. Tenga en cuenta que el nombre del parámetro debe corresponderse completamente (mayúsculas y minúsculas) con lo declarado en el método.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.DataAccess/Repositories/Repository.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 23,
+                  "endLine": 24,
+                  "endColumn": 95
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S112",
+          "level": "warning",
+          "message": "'System.Exception' should not be thrown by user code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.DataAccess/Repositories/Repository.cs",
+                "region": {
+                  "startLine": 83,
+                  "startColumn": 23,
+                  "endLine": 83,
+                  "endColumn": 91
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2208",
+          "level": "note",
+          "message": "El método UpdateAsync pasa \"AddAsync entity must not be null\" como argumento paramName a un constructor ArgumentNullException. Reemplace este argumento por uno de los nombres de parámetros del método. Tenga en cuenta que el nombre del parámetro debe corresponderse completamente (mayúsculas y minúsculas) con lo declarado en el método.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.DataAccess/Repositories/Repository.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 23,
+                  "endLine": 70,
+                  "endColumn": 95
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA2208": {
+          "id": "CA2208",
+          "shortDescription": "Crear instancias de las excepciones del argumento correctamente",
+          "fullDescription": "Se realiza una llamada al constructor predeterminado (sin parámetros) de un tipo de excepción que es o se deriva de ArgumentException, o se pasa un argumento de cadena incorrecto a un constructor con parámetros de un tipo de excepción que es o se deriva de ArgumentException.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2208",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CS8603": {
+          "id": "CS8603",
+          "shortDescription": "Posible tipo de valor devuelto de referencia nulo",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8603)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8604": {
+          "id": "CS8604",
+          "shortDescription": "Posible argumento de referencia nulo",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8604)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Un campo que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declararlo como que admite un valor NULL.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S112": {
+          "id": "S112",
+          "shortDescription": "General exceptions should never be thrown",
+          "fullDescription": "Throwing such general exceptions as Exception, SystemException, ApplicationException, IndexOutOfRangeException, NullReferenceException, OutOfMemoryException and ExecutionEngineException prevents calling methods from handling true, system-generated exceptions differently than application-generated errors.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-112",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3928": {
+          "id": "S3928",
+          "shortDescription": "Parameter names used into ArgumentException constructors should match an existing one ",
+          "fullDescription": "Some constructors of the ArgumentException, ArgumentNullException, ArgumentOutOfRangeException and DuplicateWaitObjectException classes must be fed with a valid parameter name. This rule raises an issue in two cases:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3928",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S4457": {
+          "id": "S4457",
+          "shortDescription": "Parameter validation in \"async\"/\"await\" methods should be wrapped",
+          "fullDescription": "Because of the way async/await methods are rewritten by the compiler, any exceptions thrown during the parameters check will happen only when the task is observed. That could happen far away from the source of the buggy code or never happen for fire-and-forget tasks.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4457",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

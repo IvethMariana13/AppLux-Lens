@@ -4875,23 +4875,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\josep\\.nuget\\packages\\": {},
-    "D:\\VS22Folder\\Visual_Studio_Components\\NuGetPackages": {}
+    "C:\\Users\\pc\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\LuxLens.Api\\LuxLens.Api.csproj",
+      "projectUniqueName": "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\LuxLens.Api\\LuxLens.Api.csproj",
       "projectName": "LuxLens.Api",
-      "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\LuxLens.Api\\LuxLens.Api.csproj",
-      "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-      "outputPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\LuxLens.Api\\obj\\",
+      "projectPath": "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\LuxLens.Api\\LuxLens.Api.csproj",
+      "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+      "outputPath": "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\LuxLens.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\VS22Folder\\Visual_Studio_Components\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\josep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4906,8 +4906,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj": {
-              "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj"
+            "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj": {
+              "projectPath": "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\Lux-Lens.ApplicationServices\\Lux-Lens.ApplicationServices.csproj"
             }
           }
         }
@@ -5010,7 +5010,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

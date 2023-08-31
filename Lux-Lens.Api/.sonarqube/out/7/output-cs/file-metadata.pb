@@ -1,0 +1,9 @@
+T
+KE:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.UnitTest\AuthTest.csutf-8T
+KE:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.UnitTest\LensTest.csutf-8S
+JE:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.UnitTest\Startup.csutf-8R
+IE:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.UnitTest\Usings.csutf-8z
+oC:\Users\pc\.nuget\packages\microsoft.net.test.sdk\17.3.2\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.csutf-8
+tE:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.UnitTest\obj\Debug\net6.0\Lux-Lens.UnitTest.GlobalUsings.g.csutf-8Š
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.UnitTest\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8}
+rE:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.UnitTest\obj\Debug\net6.0\Lux-Lens.UnitTest.AssemblyInfo.csutf-8

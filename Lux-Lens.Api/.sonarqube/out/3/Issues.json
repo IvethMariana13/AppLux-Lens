@@ -1,0 +1,475 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.7.0.0",
+        "fileVersion": "4.7.0-3.23366.1 (dad7898a)",
+        "semanticVersion": "4.7.0",
+        "language": "es-MX"
+      },
+      "results": [
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"UserName\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.AppServices.Shared/Dto/LoginDto.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.AppServices.Shared/Dto/LoginDto.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Password\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.AppServices.Shared/Dto/LoginDto.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 23,
+                  "endLine": 18,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.AppServices.Shared/Dto/LoginDto.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 23,
+                  "endLine": 18,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"PhoneNumber\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.AppServices.Shared/Dto/NewUserDto.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.AppServices.Shared/Dto/NewUserDto.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Password\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.AppServices.Shared/Dto/NewUserDto.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 23,
+                  "endLine": 18,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.AppServices.Shared/Dto/NewUserDto.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 23,
+                  "endLine": 18,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Email\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.AppServices.Shared/Dto/NewUserDto.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 23,
+                  "endLine": 23,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.AppServices.Shared/Dto/NewUserDto.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 23,
+                  "endLine": 23,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Id\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.AppServices.Shared/Dto/UserDto.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.AppServices.Shared/Dto/UserDto.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"UserName\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.AppServices.Shared/Dto/UserDto.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 23,
+                  "endLine": 17,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.AppServices.Shared/Dto/UserDto.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 23,
+                  "endLine": 17,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"PhoneNumber\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.AppServices.Shared/Dto/UserDto.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 23,
+                  "endLine": 21,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.AppServices.Shared/Dto/UserDto.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 23,
+                  "endLine": 21,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Email\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.AppServices.Shared/Dto/UserDto.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 23,
+                  "endLine": 26,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.AppServices.Shared/Dto/UserDto.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 23,
+                  "endLine": 26,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Modelo\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.AppServices.Shared/Dto/LensDto.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.AppServices.Shared/Dto/LensDto.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Marca\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.AppServices.Shared/Dto/LensDto.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.AppServices.Shared/Dto/LensDto.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Color\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.AppServices.Shared/Dto/LensDto.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 23,
+                  "endLine": 16,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.AppServices.Shared/Dto/LensDto.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 23,
+                  "endLine": 16,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Material\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.AppServices.Shared/Dto/LensDto.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 23,
+                  "endLine": 18,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///E:/Documentos/GitHub/AppLux-Lens/Lux-Lens.Api/Lux-Lens.AppServices.Shared/Dto/LensDto.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 23,
+                  "endLine": 18,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Un campo que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declararlo como que admite un valor NULL.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

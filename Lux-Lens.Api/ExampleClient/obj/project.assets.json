@@ -778,23 +778,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\josep\\.nuget\\packages\\": {},
-    "D:\\VS22Folder\\Visual_Studio_Components\\NuGetPackages": {}
+    "C:\\Users\\pc\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\ExampleClient\\ExampleClient.csproj",
+      "projectUniqueName": "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\ExampleClient\\ExampleClient.csproj",
       "projectName": "ExampleClient",
-      "projectPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\ExampleClient\\ExampleClient.csproj",
-      "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-      "outputPath": "D:\\PuntoSingular\\Luxottica\\LuxlensProject\\AppLux-Lens\\Lux-Lens.Api\\ExampleClient\\obj\\",
+      "projectPath": "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\ExampleClient\\ExampleClient.csproj",
+      "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+      "outputPath": "E:\\Documentos\\GitHub\\AppLux-Lens\\Lux-Lens.Api\\ExampleClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\VS22Folder\\Visual_Studio_Components\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\josep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -849,7 +849,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

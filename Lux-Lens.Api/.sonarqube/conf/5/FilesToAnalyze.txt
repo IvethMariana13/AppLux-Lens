@@ -1,0 +1,5 @@
+﻿E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.ApplicationServices\Lens\Authentication\IUserService.cs
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.ApplicationServices\Lens\Authentication\UserService.cs
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.ApplicationServices\Lens\ILensService.cs
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.ApplicationServices\Lens\LensService.cs
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.ApplicationServices\MapperProfile.cs

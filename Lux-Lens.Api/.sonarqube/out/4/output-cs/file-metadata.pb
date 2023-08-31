@@ -1,0 +1,10 @@
+[
+RE:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\LensDbContext.csutf-8o
+fE:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\Migrations\20230818215544_LuxLens.csutf-8z
+oE:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\Migrations\20230818215544_LuxLens.Designer.csutf-8u
+jE:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\Migrations\LensDbContextModelSnapshot.csutf-8f
+]E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\Repositories\IRepository.csutf-8e
+\E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\Repositories\Repository.csutf-8É
+xE:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\obj\Debug\net6.0\Lux-Lens.DataAccess.GlobalUsings.g.csutf-8ç
+ÅE:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8Å
+vE:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.DataAccess\obj\Debug\net6.0\Lux-Lens.DataAccess.AssemblyInfo.csutf-8

@@ -1493,3 +1493,8 @@ D:\PuntoSingular\Luxottica\LuxlensProject\AppLux-Lens\Lux-Lens.Api\Lux-Lens.Unit
 D:\PuntoSingular\Luxottica\LuxlensProject\AppLux-Lens\Lux-Lens.Api\Lux-Lens.UnitTest\obj\Debug\net6.0\Lux-Lens.UnitTest.pdb
 D:\PuntoSingular\Luxottica\LuxlensProject\AppLux-Lens\Lux-Lens.Api\Lux-Lens.UnitTest\obj\Debug\net6.0\Lux-Lens.UnitTest.genruntimeconfig.cache
 D:\PuntoSingular\Luxottica\LuxlensProject\AppLux-Lens\Lux-Lens.Api\Lux-Lens.UnitTest\obj\Debug\net6.0\ref\Lux-Lens.UnitTest.dll
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.UnitTest\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.UnitTest\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.UnitTest\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.UnitTest\bin\Debug\net6.0\refs\Microsoft.Extensions.Identity.Core.dll
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\Lux-Lens.UnitTest\bin\Debug\net6.0\refs\Microsoft.Extensions.Identity.Stores.dll

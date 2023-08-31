@@ -3324,3 +3324,8 @@ D:\PuntoSingular\Luxottica\LuxlensProject\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\b
 D:\PuntoSingular\Luxottica\LuxlensProject\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\PuntoSingular\Luxottica\LuxlensProject\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\Lux-Lens.AppServices.Shared.dll
 D:\PuntoSingular\Luxottica\LuxlensProject\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\Lux-Lens.AppServices.Shared.pdb
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\refs\Microsoft.Extensions.Identity.Core.dll
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\LuxLens.Api\bin\Debug\net6.0\refs\Microsoft.Extensions.Identity.Stores.dll

@@ -1,0 +1,11 @@
+﻿E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\ExampleClient\Controllers\WeatherForecastController.cs
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\ExampleClient\LoginViewModel.cs
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\ExampleClient\Program.cs
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\ExampleClient\WeatherForecast.cs
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\ExampleClient\obj\Debug\net6.0\ExampleClient.GlobalUsings.g.cs
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\ExampleClient\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\ExampleClient\obj\Debug\net6.0\ExampleClient.AssemblyInfo.cs
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\ExampleClient\obj\Debug\net6.0\ExampleClient.MvcApplicationPartsAssemblyInfo.cs
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\ExampleClient\appsettings.Development.json
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\ExampleClient\appsettings.json
+E:\Documentos\GitHub\AppLux-Lens\Lux-Lens.Api\ExampleClient\Properties\launchSettings.json
