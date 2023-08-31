@@ -47,20 +47,20 @@ handler.ServerCertificateCustomValidationCallback = (message, cert, chain, error
     return certificateIsValid;
 };
 
-var client = new HttpClient(handler);
+//var client = new HttpClient(handler);
 
-string jwtToken = "";
-var model = new LoginViewModel
-{
-    UserName = "",
-    Password = ""
-};
+//string jwtToken = "";
+//var model = new LoginViewModel
+//{
+//    UserName = "",
+//    Password = ""
+//};
 
 //client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", jwtToken);
-var response = await client.PostAsJsonAsync("https://localhost:44326/api/Login/", model);
-var content = await response.Content.ReadAsStringAsync();
-Console.WriteLine(response.StatusCode);
-Console.WriteLine(await response.Content.ReadAsStringAsync());
+//var response = await client.PostAsJsonAsync("https://localhost:44326/api/Login/", model);
+//var content = await response.Content.ReadAsStringAsync();
+//Console.WriteLine(response.StatusCode);
+//Console.WriteLine(await response.Content.ReadAsStringAsync());
 
 var app = builder.Build();
 
